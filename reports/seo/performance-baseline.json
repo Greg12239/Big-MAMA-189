@@ -1,0 +1,195 @@
+{
+  "benchmarkMethodVersion": "3.0.0",
+  "browserLaunches": 0,
+  "browserPages": 0,
+  "environment": {
+    "dataContractVersion": "1.0.0",
+    "operatingSystem": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "searchDataSystemVersion": "1.0.0"
+  },
+  "generatedAt": "2026-07-14T20:08:09.190019Z",
+  "limitations": [
+    "Chromium was not launched.",
+    "CPU time is not reported because Windows child-process CPU accounting is not implemented.",
+    "Peak memory is the maximum summed working set observed across each Windows child process tree.",
+    "The single-file-change mode validates incremental key computation without modifying source data."
+  ],
+  "networkRequests": 0,
+  "peakMemoryExcludingChromiumBytes": 43032576,
+  "peakMemoryTargetBytes": 536870912,
+  "runs": [
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-search-foundation.py",
+        "--force",
+        "--no-cache"
+      ],
+      "durationSeconds": 1.156137,
+      "exitCode": 0,
+      "name": "cold",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 35753984,
+      "stderrTail": "",
+      "stdoutTail": "{\"browserLaunches\": 0, \"cacheRoot\": \"reports/seo/.cache\", \"dryRun\": true, \"failures\": [], \"generatedAt\": \"2026-07-14T20:08:03.101958Z\", \"generatedComponents\": [\"extract\", \"metadata\", \"schema\", \"sitemap\", \"robots\", \"answers\", \"search-data-validation\", \"schema-validation\", \"nap-validation\", \"menu-validation\", \"asset-validation\", \"internal-links\", \"placeholders\", \"competitors\", \"local-search-baseline\", \"drift\", \"website-performance-inventory\", \"report\"], \"networkRequests\": 0, \"schemaVersion\": \"1.0.0\", \"status\": \"PASS\", \"unchangedComponentsSkipped\": [], \"websiteWrites\": 0}",
+      "subprocessCount": 2,
+      "targetPassed": true,
+      "targetSeconds": 20.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-search-foundation.py"
+      ],
+      "durationSeconds": 0.530017,
+      "exitCode": 0,
+      "name": "warm",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 26316800,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.530017,
+        0.576417,
+        0.520885
+      ],
+      "stderrTail": "",
+      "stdoutTail": "{\"browserLaunches\": 0, \"cacheRoot\": \"reports/seo/.cache\", \"dryRun\": true, \"failures\": [], \"generatedAt\": \"2026-07-14T20:08:03.684598Z\", \"generatedComponents\": [], \"networkRequests\": 0, \"schemaVersion\": \"1.0.0\", \"status\": \"PASS\", \"unchangedComponentsSkipped\": [\"extract\", \"metadata\", \"schema\", \"sitemap\", \"robots\", \"answers\", \"search-data-validation\", \"schema-validation\", \"nap-validation\", \"menu-validation\", \"asset-validation\", \"internal-links\", \"placeholders\", \"competitors\", \"local-search-baseline\", \"drift\", \"website-performance-inventory\", \"report\"], \"websiteWrites\": 0}",
+      "subprocessCount": 6,
+      "targetPassed": true,
+      "targetSeconds": 3.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-search-foundation.py"
+      ],
+      "durationSeconds": 0.543125,
+      "exitCode": 0,
+      "name": "incremental",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 34144256,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.546503,
+        0.543125,
+        0.540648
+      ],
+      "stderrTail": "",
+      "stdoutTail": "{\"browserLaunches\": 0, \"cacheRoot\": \"reports/seo/.cache\", \"dryRun\": true, \"failures\": [], \"generatedAt\": \"2026-07-14T20:08:05.870090Z\", \"generatedComponents\": [], \"networkRequests\": 0, \"schemaVersion\": \"1.0.0\", \"status\": \"PASS\", \"unchangedComponentsSkipped\": [\"extract\", \"metadata\", \"schema\", \"sitemap\", \"robots\", \"answers\", \"search-data-validation\", \"schema-validation\", \"nap-validation\", \"menu-validation\", \"asset-validation\", \"internal-links\", \"placeholders\", \"competitors\", \"local-search-baseline\", \"drift\", \"website-performance-inventory\", \"report\"], \"websiteWrites\": 0}",
+      "subprocessCount": 7,
+      "targetPassed": true,
+      "targetSeconds": 3.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "internal",
+        "hash-key-simulation"
+      ],
+      "durationSeconds": 0.00198,
+      "exitCode": 0,
+      "name": "single-file-change",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": null,
+      "resultHash": "756985a1d20e6d4a759094c4f2db2792496fe537020fe447f315bcf9e03fab73",
+      "subprocessCount": 0,
+      "targetPassed": true,
+      "targetSeconds": 5.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/validate-search-data.py"
+      ],
+      "durationSeconds": 0.218894,
+      "exitCode": 0,
+      "name": "validation",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 23646208,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.241959,
+        0.204022,
+        0.218894
+      ],
+      "stderrTail": "",
+      "stdoutTail": "{\"errors\": [], \"filesValidated\": 19, \"generatedAt\": \"2026-07-14T20:08:07.101764Z\", \"productionReady\": false, \"report\": {\"bytes\": 472, \"path\": \"reports/seo/seo-validation-report.json\", \"sha256\": \"e7ab1b9213e549e7191a154ae20e36302221f414b1416e04b352edb6d9dccd90\", \"status\": \"WRITTEN\"}, \"schemaVersion\": \"1.0.0\", \"setupRequired\": [\"Verified production origin is required for canonical, sitemap, and public @id output.\", \"Approved absolute social image URL is unavailable.\"], \"status\": \"PASS_WITH_SETUP_REQUIRED\", \"warnings\": [\"Menu contradictions exist; affected products are blocked from schema eligibility.\"]}",
+      "subprocessCount": 6,
+      "targetPassed": true,
+      "targetSeconds": 15.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-website-integrity-manifest.py",
+        "--output",
+        "reports/seo/.benchmark-temp/integrity-benchmark.json",
+        "--label",
+        "benchmark"
+      ],
+      "durationSeconds": 0.289336,
+      "exitCode": 0,
+      "name": "integrity",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 25530368,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.336057,
+        0.289336,
+        0.281927
+      ],
+      "stderrTail": "",
+      "stdoutTail": "{\"output\": {\"bytes\": 10225, \"path\": \"reports/seo/.benchmark-temp/integrity-benchmark.json\", \"sha256\": \"7e723b6ebde71d544a82d3c335e37cea187e0c5bf28cd2f12cd0d062d6edacaf\", \"status\": \"WRITTEN\"}, \"protectedFileCount\": 44}",
+      "subprocessCount": 6,
+      "targetPassed": true,
+      "targetSeconds": 30.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-search-foundation.py",
+        "--force",
+        "--no-cache"
+      ],
+      "durationSeconds": 1.120566,
+      "exitCode": 0,
+      "name": "cache-disabled",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 43032576,
+      "stderrTail": "",
+      "stdoutTail": "{\"browserLaunches\": 0, \"cacheRoot\": \"reports/seo/.cache\", \"dryRun\": true, \"failures\": [], \"generatedAt\": \"2026-07-14T20:08:09.102427Z\", \"generatedComponents\": [\"extract\", \"metadata\", \"schema\", \"sitemap\", \"robots\", \"answers\", \"search-data-validation\", \"schema-validation\", \"nap-validation\", \"menu-validation\", \"asset-validation\", \"internal-links\", \"placeholders\", \"competitors\", \"local-search-baseline\", \"drift\", \"website-performance-inventory\", \"report\"], \"networkRequests\": 0, \"schemaVersion\": \"1.0.0\", \"status\": \"PASS\", \"unchangedComponentsSkipped\": [], \"websiteWrites\": 0}",
+      "subprocessCount": 3,
+      "targetPassed": true,
+      "targetSeconds": 20.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "durationSeconds": 0.0,
+      "exitCode": 0,
+      "name": "browser",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": null,
+      "reason": "No rendered-browser evidence was required for foundation validation.",
+      "status": "NOT_RUN",
+      "subprocessCount": 0,
+      "targetPassed": true
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "targetBudgetsMissed": []
+}

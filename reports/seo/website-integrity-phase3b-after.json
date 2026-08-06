@@ -1,0 +1,275 @@
+{
+  "aggregate_bytes": 42309645,
+  "baseline_timestamp": "2026-07-18T17:03:35.884482Z",
+  "files": [
+    {
+      "last_write_utc": "2026-07-05T15:44:40.474088Z",
+      "path": ".gitignore",
+      "sha256": "1f8754e54421e1042287aa61db75bf58c099d3fc132ca723fbfb917cf7206077",
+      "size": 138
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.482685Z",
+      "path": ".nojekyll",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.490845Z",
+      "path": "AGENTS.md",
+      "sha256": "f8ae8605aff887170fddb181f6e9eca4da1ed6503b9e90720c9b4d6be12f1b31",
+      "size": 4511
+    },
+    {
+      "last_write_utc": "2026-07-14T16:24:52.175785Z",
+      "path": "app.js",
+      "sha256": "7eb915157fbfab0d1474e4bc2baef8ec8317e04b09113c15c0af2499d0dfaec4",
+      "size": 18418
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.517831Z",
+      "path": "codex_control_manifest.json",
+      "sha256": "3ffce008de4020a00e3736a3dc75af8fea466a1587ea2fcafc507a2d9be827e3",
+      "size": 906
+    },
+    {
+      "last_write_utc": "2026-07-07T16:59:33.266505Z",
+      "path": "index.corrupted-backup.html",
+      "sha256": "91cb4395f1f8ceb1cd64932311492de17fd0ddc08dcc8caf01dd06c8c6458cf8",
+      "size": 440
+    },
+    {
+      "last_write_utc": "2026-07-14T15:55:42.554730Z",
+      "path": "index.html",
+      "sha256": "56dcb0e68aee94cefe9f1dd07af1e25e92be11041a51a21cc446914a9bdd2534",
+      "size": 57397
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.832696Z",
+      "path": "public/assets/big-mama-logo-cropped-white.png",
+      "sha256": "7b5a8a1b6ebd5fead9dcc6e53f44a21a4c78de9baa2b3a47b3bf8b3a977d516d",
+      "size": 657376
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.850966Z",
+      "path": "public/assets/big-mama-logo-source.png",
+      "sha256": "e9a77a695b2eda47e646feee38b49db319bb83fd9cc985d8e2e1b35ea567925d",
+      "size": 921398
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.868231Z",
+      "path": "public/assets/big-mama-logo.png",
+      "sha256": "659fc87e3d2364ee47244a538e793525c1b1795ea8f827da7c05d74fc0813daa",
+      "size": 736687
+    },
+    {
+      "last_write_utc": "2026-07-11T21:14:08.868747Z",
+      "path": "public/assets/big-mama-reviews-hero-seamless.png",
+      "sha256": "1b87f4e52ee0df431aff685985e03668905eb7b3c06ed525b53ecdd3172677e2",
+      "size": 1623359
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.064209Z",
+      "path": "public/assets/campaign/originals/street-burger-closeup.png",
+      "sha256": "f631cae90aa8c38966228463eff51d583cd30889a4eadb95ed7213b4eea087b8",
+      "size": 2806940
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.104510Z",
+      "path": "public/assets/campaign/originals/street-crew-bags.png",
+      "sha256": "bc176c41ef1b53d6a34db0ea4e3c9e2d605ca8a6d1268c277c3d053c65273946",
+      "size": 3192503
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.001050Z",
+      "path": "public/assets/campaign/street-burger-closeup.jpg",
+      "sha256": "1f4df9b6eda9aa94a3788169a51cb2e7614cb57be7e5e6bbe4dff518a7818f4e",
+      "size": 401118
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.022427Z",
+      "path": "public/assets/campaign/street-crew-bags - Copy.jpg",
+      "sha256": "7715da73a90c90a1e51e47a6506c0ccf6a89a8d2dc30bf71ba21fb5120a57508",
+      "size": 515769
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.022427Z",
+      "path": "public/assets/campaign/street-crew-bags.jpg",
+      "sha256": "7715da73a90c90a1e51e47a6506c0ccf6a89a8d2dc30bf71ba21fb5120a57508",
+      "size": 515769
+    },
+    {
+      "last_write_utc": "2026-07-13T17:31:13.497000Z",
+      "path": "public/assets/contact/big-mama-map-pin.png",
+      "sha256": "fea0d0edc50f0c50fa91d82b57d299e84144528c517dbcbd15fa0a0ca9292b1b",
+      "size": 1232728
+    },
+    {
+      "last_write_utc": "2026-07-14T15:52:23.748000Z",
+      "path": "public/assets/contact/big-mama-neon-logo-transparent.png",
+      "sha256": "d5288087bcf7b18eca428044b98ed00c5eb00d4ece7bec12227d7a042a99e8c3",
+      "size": 1402491
+    },
+    {
+      "last_write_utc": "2026-07-13T17:14:47.852204Z",
+      "path": "public/assets/contact/big-mama-neon-logo.png",
+      "sha256": "3960c8d900be71dc894476dd84a9ea8bbd5cb3fc59aa222f3d7ceb4fac59d42c",
+      "size": 1625639
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.879957Z",
+      "path": "public/assets/efood-button-official-red.png",
+      "sha256": "e649919af2366b66102453f51948589d71747b78768029202537150562643fa4",
+      "size": 8935
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.891527Z",
+      "path": "public/assets/efood-button.png",
+      "sha256": "e268d405b6e0d85cf482a27e573d8c7ecbb1f8076541d75ee5af3319786cd7b4",
+      "size": 6322
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.918080Z",
+      "path": "public/assets/exploded-burger-cutout.png",
+      "sha256": "6a5665a1811547f0ed7571e50d36f7bdd14c38c9d3060877a24b10ee7ac089c1",
+      "size": 1706031
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.949618Z",
+      "path": "public/assets/exploded-burger.png",
+      "sha256": "d131dd50b262da58797c588c4e17dc8a2bb24bf33bee437f6ab1d301ce6b8779",
+      "size": 2334360
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.979187Z",
+      "path": "public/assets/fries-3d-cutout.png",
+      "sha256": "503c291f080dfc3ad8910742e41efe537b2d4d6eecac86cefa7543a8d88baebe",
+      "size": 2167769
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.125818Z",
+      "path": "public/assets/logo/big-mama-logo-transparent.png",
+      "sha256": "a5a67ff912616e24453e9a2043dae8b46776095d5ab15e2f4388290d8a61959a",
+      "size": 383140
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.793085Z",
+      "path": "public/assets/MENU-nav-transparent.png",
+      "sha256": "39e0c566359b6b2612af70b9546c2fc2ad61175b63e74dd0923df7ed6af98c5f",
+      "size": 14439
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.815399Z",
+      "path": "public/assets/MENU.png",
+      "sha256": "5b94a84193b37e945407b911c35e679354685304d86c09643680e4508bc0eaf3",
+      "size": 1368456
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.160457Z",
+      "path": "public/assets/menu/bacon-lovers-double.png",
+      "sha256": "ce6202c50ba217d47fe60f04f2a186fbcf886f0b77ad054af66f1c2c476edf19",
+      "size": 1755335
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.176774Z",
+      "path": "public/assets/menu/beef-burgers-title.png",
+      "sha256": "c3ef1df87cb1f42b79f4007e6e92057747900af0e2e1ceb02534a4bd9e2db99d",
+      "size": 654233
+    },
+    {
+      "last_write_utc": "2026-07-13T07:08:10.850752Z",
+      "path": "public/assets/menu/big-mama-fries.jpg",
+      "sha256": "e136aa9c96b121eb1b999fe386356f46df822c743cc004f1c82f08cf1dda2bbc",
+      "size": 124088
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.220995Z",
+      "path": "public/assets/menu/big-tokyo-transition.png",
+      "sha256": "b3897b8de9dfa3fb872825014a41e57f3fae792f00227b2eec889eced30af624",
+      "size": 3240577
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.248467Z",
+      "path": "public/assets/menu/big-tokyo.png",
+      "sha256": "67ff362cc944649e0e5730e445a9ef2085a2278c309310dfd89ccb93f938d340",
+      "size": 1986137
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.266698Z",
+      "path": "public/assets/menu/chicken-burgers-title-transparent.png",
+      "sha256": "7ed420bb357c4bdfef907484ff1a524e59fe4571ca8704bfb45e6332de084c51",
+      "size": 731069
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.285609Z",
+      "path": "public/assets/menu/chicken-burgers-title.png",
+      "sha256": "ba810a262e660058e8b7a8dfb626de4d87b9506810ad4a1f1a3489b225678b89",
+      "size": 880611
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.312048Z",
+      "path": "public/assets/menu/lava-mam-chicken.png",
+      "sha256": "b9725b4b9b39584e6ee112bac5f37777e5f20f5a2b15657a299961f4ec58e69a",
+      "size": 1820323
+    },
+    {
+      "last_write_utc": "2026-07-13T07:08:10.665218Z",
+      "path": "public/assets/menu/mama-in-paris.jpg",
+      "sha256": "a51d2a4906f6693a6e59fe5607190f1b4b60e6fa67fc68422cbc3a234bcdad52",
+      "size": 179652
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.337575Z",
+      "path": "public/assets/menu/mamas-original-single.png",
+      "sha256": "4ed8ed540dbee41a6ed57a5470f97acb7f5ce1237133c2ce232167fa5a86808e",
+      "size": 1607432
+    },
+    {
+      "last_write_utc": "2026-07-13T06:53:56.630884Z",
+      "path": "public/assets/menu/original-double-choco-cookie.jpg",
+      "sha256": "3bb0dc7d0758e8024502e2eb1362e174876a31070152ff5f4c452dc32ed79e7c",
+      "size": 238930
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.380030Z",
+      "path": "public/assets/menu/truffle-oh-mama-double.png",
+      "sha256": "1100268152fe03b5d60f64e1951275acac89e57b88587d92c8d7f6bc6bfb7d07",
+      "size": 1444088
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:41.405504Z",
+      "path": "public/assets/menu/truffle-parmesan-chicken.png",
+      "sha256": "f60790c916a23fb7d931c61903a92529d62091721084aebe1bf4bd0d3627b147",
+      "size": 1607018
+    },
+    {
+      "last_write_utc": "2026-07-11T20:18:14.970860Z",
+      "path": "public/assets/publicassetsbig-mama-reviews-hero-4k.png.png",
+      "sha256": "fe1a0c23cde3776c5417aec59720b5b96fed68857e7edaa8c138c1d6b1038731",
+      "size": 2048808
+    },
+    {
+      "last_write_utc": "2026-07-07T15:58:50.344735Z",
+      "path": "public/assets/wolt-button.png",
+      "sha256": "b1a12f2491e0cb6a513efd99360f9874481f20caee84af8f8a2de961b952a021",
+      "size": 160020
+    },
+    {
+      "last_write_utc": "2026-07-05T15:44:40.498971Z",
+      "path": "README.md",
+      "sha256": "b8fc54076e1d1e81e0ec0d5cb3dadc377ad9fe6e5e262d9bb4fce931accb533f",
+      "size": 1092
+    },
+    {
+      "last_write_utc": "2026-07-14T16:07:32.499008Z",
+      "path": "styles.css",
+      "sha256": "11c7d77625aaef737b278f22e6eb8bcdfbae6c28de9c52d5b6c2f1460354dd6a",
+      "size": 127192
+    }
+  ],
+  "hash_algorithm": "SHA-256",
+  "manifest_label": "phase3b-after",
+  "protected_file_count": 44,
+  "repository_root": ".",
+  "schema_version": "1.1.0"
+}

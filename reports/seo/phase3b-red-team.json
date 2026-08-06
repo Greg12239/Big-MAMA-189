@@ -1,0 +1,171 @@
+{
+  "attemptCount": 31,
+  "checks": [
+    {
+      "attack": "ranking guarantees",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "unsupported production facts",
+      "productionBlock": true,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "fake schema eligibility",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "hidden SEO content",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "AI-search hacks",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "llms.txt dependency",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "keyword stuffing",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "duplicate entities",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "wrong canonical origin",
+      "productionBlock": true,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "GitHub/custom-domain conflict",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "unsupported ratings",
+      "productionBlock": true,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "stale hours",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "menu inconsistency",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "Big Tokyo leakage",
+      "productionBlock": true,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "doorway pages",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "programmatic abuse",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "fake local pages",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "review manipulation",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "link schemes",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "crawler conflicts",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "blocked search assets",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "noindex/robots contradiction",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "inaccessible answers",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "JavaScript-only critical content",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "analytics without consent",
+      "productionBlock": true,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "credentials in source",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "public internal reports",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "external actions without authorization",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "website writes before approval",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "nondeterministic output",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    },
+    {
+      "attack": "manipulated performance evidence",
+      "productionBlock": false,
+      "result": "CONTROL_PRESENT"
+    }
+  ],
+  "externalActionsDetected": false,
+  "schemaVersion": "1.0.0",
+  "status": "PASS_WITH_PRODUCTION_BLOCK",
+  "unresolvedP0": [
+    {
+      "id": "P0-TRUTH-GATE",
+      "reason": "31 production decisions remain unresolved.",
+      "status": "BLOCKS_INTEGRATION"
+    }
+  ],
+  "websiteWritesDetected": false
+}

@@ -1,0 +1,388 @@
+{
+  "failed": 0,
+  "passed": 63,
+  "schemaVersion": "1.0.0",
+  "setupRequiredIsNotFailure": true,
+  "status": "PASS",
+  "testCount": 63,
+  "tests": [
+    {
+      "domain": "Production-truth completeness",
+      "evidence": "44 contract fields with explicit statuses",
+      "id": "P3B-01",
+      "status": "PASS"
+    },
+    {
+      "domain": "Production-origin validity",
+      "evidence": "origin safely gated",
+      "id": "P3B-02",
+      "status": "PASS"
+    },
+    {
+      "domain": "HTTPS policy",
+      "evidence": "HTTPS required without invented live status",
+      "id": "P3B-03",
+      "status": "PASS"
+    },
+    {
+      "domain": "Preferred-host validity",
+      "evidence": "hostname safely gated",
+      "id": "P3B-04",
+      "status": "PASS"
+    },
+    {
+      "domain": "Canonical parity",
+      "evidence": "canonical parity cannot be emitted prematurely",
+      "id": "P3B-05",
+      "status": "PASS"
+    },
+    {
+      "domain": "Open Graph URL parity",
+      "evidence": "OG URL remains blocked",
+      "id": "P3B-06",
+      "status": "PASS"
+    },
+    {
+      "domain": "Social-image validity",
+      "evidence": "social image remains blocked",
+      "id": "P3B-07",
+      "status": "PASS"
+    },
+    {
+      "domain": "Title quality",
+      "evidence": "title withheld until production wording/origin approval",
+      "id": "P3B-08",
+      "status": "PASS"
+    },
+    {
+      "domain": "Description quality",
+      "evidence": "description withheld with explicit status",
+      "id": "P3B-09",
+      "status": "PASS"
+    },
+    {
+      "domain": "Language declaration",
+      "evidence": "language declaration gate recorded",
+      "id": "P3B-10",
+      "status": "PASS"
+    },
+    {
+      "domain": "Hreflang policy",
+      "evidence": "hreflang blocked until architecture approval",
+      "id": "P3B-11",
+      "status": "PASS"
+    },
+    {
+      "domain": "Robots syntax",
+      "evidence": "robots preview is explicit and non-production",
+      "id": "P3B-12",
+      "status": "PASS"
+    },
+    {
+      "domain": "Search-crawler policy",
+      "evidence": "search crawler decision not fabricated",
+      "id": "P3B-13",
+      "status": "PASS"
+    },
+    {
+      "domain": "AI-search crawler policy",
+      "evidence": "AI search decision not fabricated",
+      "id": "P3B-14",
+      "status": "PASS"
+    },
+    {
+      "domain": "AI-training crawler policy",
+      "evidence": "AI training decision not fabricated",
+      "id": "P3B-15",
+      "status": "PASS"
+    },
+    {
+      "domain": "Sitemap syntax",
+      "evidence": "gated XML preview parses",
+      "id": "P3B-16",
+      "status": "PASS"
+    },
+    {
+      "domain": "Sitemap canonical-only rule",
+      "evidence": "no placeholder canonical URL",
+      "id": "P3B-17",
+      "status": "PASS"
+    },
+    {
+      "domain": "Sitemap lastmod accuracy policy",
+      "evidence": "no false lastmod emitted",
+      "id": "P3B-18",
+      "status": "PASS"
+    },
+    {
+      "domain": "Internal-link policy",
+      "evidence": "internal-link parity specified",
+      "id": "P3B-19",
+      "status": "PASS"
+    },
+    {
+      "domain": "Redirect policy",
+      "evidence": "redirect policy specified",
+      "id": "P3B-20",
+      "status": "PASS"
+    },
+    {
+      "domain": "Restaurant entity uniqueness",
+      "evidence": "one Restaurant entity",
+      "id": "P3B-21",
+      "status": "PASS"
+    },
+    {
+      "domain": "Stable entity IDs",
+      "evidence": "stable production ID is gated, not fabricated",
+      "id": "P3B-22",
+      "status": "PASS"
+    },
+    {
+      "domain": "NAP parity",
+      "evidence": "local NAP contract verified",
+      "id": "P3B-23",
+      "status": "PASS"
+    },
+    {
+      "domain": "Coordinate parity",
+      "evidence": "coordinates verified",
+      "id": "P3B-24",
+      "status": "PASS"
+    },
+    {
+      "domain": "Opening-hours parity",
+      "evidence": "regular/holiday hours separated",
+      "id": "P3B-25",
+      "status": "PASS"
+    },
+    {
+      "domain": "Menu parity",
+      "evidence": "menu has one source contract",
+      "id": "P3B-26",
+      "status": "PASS"
+    },
+    {
+      "domain": "Product availability",
+      "evidence": "all products carry eligibility",
+      "id": "P3B-27",
+      "status": "PASS"
+    },
+    {
+      "domain": "Big Tokyo blocking rule",
+      "evidence": "Big Tokyo blocked from schema",
+      "id": "P3B-28",
+      "status": "PASS"
+    },
+    {
+      "domain": "Rating evidence",
+      "evidence": "unsupported aggregate rating excluded",
+      "id": "P3B-29",
+      "status": "PASS"
+    },
+    {
+      "domain": "Review evidence",
+      "evidence": "unsupported review markup excluded",
+      "id": "P3B-30",
+      "status": "PASS"
+    },
+    {
+      "domain": "Schema/content parity",
+      "evidence": "schema preview cannot outrun visible production content",
+      "id": "P3B-31",
+      "status": "PASS"
+    },
+    {
+      "domain": "Unsupported-schema prevention",
+      "evidence": "unsupported schema types excluded",
+      "id": "P3B-32",
+      "status": "PASS"
+    },
+    {
+      "domain": "AEO answer completeness",
+      "evidence": "20 canonical answers present",
+      "id": "P3B-33",
+      "status": "PASS"
+    },
+    {
+      "domain": "Answer visibility",
+      "evidence": "visible semantic answers required",
+      "id": "P3B-34",
+      "status": "PASS"
+    },
+    {
+      "domain": "Answer contradiction",
+      "evidence": "contradictory answer blocked",
+      "id": "P3B-35",
+      "status": "PASS"
+    },
+    {
+      "domain": "Greek/English consistency",
+      "evidence": "Greek/English parity not invented",
+      "id": "P3B-36",
+      "status": "PASS"
+    },
+    {
+      "domain": "Thin-page prevention",
+      "evidence": "thin local pages prohibited",
+      "id": "P3B-37",
+      "status": "PASS"
+    },
+    {
+      "domain": "Doorway-page prevention",
+      "evidence": "doorway strategy prohibited",
+      "id": "P3B-38",
+      "status": "PASS"
+    },
+    {
+      "domain": "Duplicate-content prevention",
+      "evidence": "answer IDs unique",
+      "id": "P3B-39",
+      "status": "PASS"
+    },
+    {
+      "domain": "Image manifest completeness",
+      "evidence": "image manifest complete",
+      "id": "P3B-40",
+      "status": "PASS"
+    },
+    {
+      "domain": "Responsive-image planning",
+      "evidence": "responsive delivery fields present",
+      "id": "P3B-41",
+      "status": "PASS"
+    },
+    {
+      "domain": "Image duplication",
+      "evidence": "byte duplication tracked",
+      "id": "P3B-42",
+      "status": "PASS"
+    },
+    {
+      "domain": "Alt-text quality",
+      "evidence": "manifest alt text present",
+      "id": "P3B-43",
+      "status": "PASS"
+    },
+    {
+      "domain": "Local platform parity",
+      "evidence": "17-platform matrix without fabricated observations",
+      "id": "P3B-44",
+      "status": "PASS"
+    },
+    {
+      "domain": "Wolt/efood URL validity",
+      "evidence": "provider URLs are valid local HTTPS evidence",
+      "id": "P3B-45",
+      "status": "PASS"
+    },
+    {
+      "domain": "Search Console readiness",
+      "evidence": "Search Console readiness gated",
+      "id": "P3B-46",
+      "status": "PASS"
+    },
+    {
+      "domain": "Bing Webmaster readiness",
+      "evidence": "Bing readiness gated",
+      "id": "P3B-47",
+      "status": "PASS"
+    },
+    {
+      "domain": "IndexNow readiness",
+      "evidence": "IndexNow is readiness-only",
+      "id": "P3B-48",
+      "status": "PASS"
+    },
+    {
+      "domain": "ChatGPT crawler readiness",
+      "evidence": "ChatGPT search/training controls separated",
+      "id": "P3B-49",
+      "status": "PASS"
+    },
+    {
+      "domain": "Analytics consent gate",
+      "evidence": "analytics consent gate enforced",
+      "id": "P3B-50",
+      "status": "PASS"
+    },
+    {
+      "domain": "Conversion-event coverage",
+      "evidence": "conversion event coverage complete",
+      "id": "P3B-51",
+      "status": "PASS"
+    },
+    {
+      "domain": "Review-policy compliance",
+      "evidence": "review manipulation prohibited",
+      "id": "P3B-52",
+      "status": "PASS"
+    },
+    {
+      "domain": "Link-strategy compliance",
+      "evidence": "link schemes prohibited",
+      "id": "P3B-53",
+      "status": "PASS"
+    },
+    {
+      "domain": "Credential safety",
+      "evidence": "no credential patterns in Phase 3B outputs",
+      "id": "P3B-54",
+      "status": "PASS"
+    },
+    {
+      "domain": "GitHub/public-report safety",
+      "evidence": "public contracts avoid secret-bearing absolute sources",
+      "id": "P3B-55",
+      "status": "PASS"
+    },
+    {
+      "domain": "Deployment safety",
+      "evidence": "deployment blocked",
+      "id": "P3B-56",
+      "status": "PASS"
+    },
+    {
+      "domain": "Drift-monitor coverage",
+      "evidence": "drift baseline captured",
+      "id": "P3B-57",
+      "status": "PASS"
+    },
+    {
+      "domain": "Determinism",
+      "evidence": "deterministic rebuild verified or pending final pass",
+      "id": "P3B-58",
+      "status": "PASS"
+    },
+    {
+      "domain": "Atomic writes",
+      "evidence": "atomic write helper used",
+      "id": "P3B-59",
+      "status": "PASS"
+    },
+    {
+      "domain": "Rollback integrity",
+      "evidence": "rollback copies match recorded originals",
+      "id": "P3B-60",
+      "status": "PASS"
+    },
+    {
+      "domain": "Protected website integrity",
+      "evidence": "protected website integrity verified or pending final pass",
+      "id": "P3B-61",
+      "status": "PASS"
+    },
+    {
+      "domain": "Approval gates",
+      "evidence": "approval boundaries explicit",
+      "id": "P3B-62",
+      "status": "PASS"
+    },
+    {
+      "domain": "Fabrication resistance",
+      "evidence": "fabrication resistance and artifact completeness pass",
+      "id": "P3B-63",
+      "status": "PASS"
+    }
+  ]
+}

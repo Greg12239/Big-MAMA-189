@@ -1,0 +1,164 @@
+{
+  "browser": {
+    "engine": "chromium",
+    "headless": true,
+    "launches": 1,
+    "pages": 2
+  },
+  "evidenceClassification": "SYNTHETIC_LOOPBACK_LAB",
+  "failedViewports": [],
+  "fatalError": null,
+  "fieldDataStatus": "FIELD_DATA_UNAVAILABLE",
+  "generatedAt": "2026-07-18T15:49:39.610358Z",
+  "limitations": [
+    "Loopback timing is not production hosting performance.",
+    "External Leaflet and OpenStreetMap resources were deliberately blocked.",
+    "No CrUX, PageSpeed, RUM, or network-throttled field-equivalent data was collected."
+  ],
+  "network": {
+    "blockedExternalUrls": [
+      "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+      "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    ],
+    "externalAllowed": 0,
+    "externalAttempted": 4,
+    "localRequests": 29,
+    "policy": "LOOPBACK_ONLY"
+  },
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "viewports": [
+    {
+      "configuredViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+        "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector"
+      ],
+      "failedExternalRequests": [
+        {
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "url": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        },
+        {
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "url": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        }
+      ],
+      "httpStatus": 200,
+      "metrics": {
+        "bodyLoaded": true,
+        "cumulativeLayoutShift": 0,
+        "firstContentfulPaintMs": 820,
+        "h1Rect": {
+          "height": 228.37893676757812,
+          "width": 585.597900390625,
+          "x": 290.1151428222656,
+          "y": 199.80462646484375
+        },
+        "h1Visible": true,
+        "horizontalOverflowPx": 0,
+        "largestContentfulPaintMs": 1076,
+        "loaderHidden": true,
+        "longTaskCount": 2,
+        "longTaskTotalMs": 298,
+        "mapRect": {
+          "height": 268,
+          "width": 755.71875,
+          "x": 573.28125,
+          "y": 3953.96875
+        },
+        "navigation": {
+          "decodedBodySizeBytes": 57397,
+          "domContentLoadedMs": 860.2999999970198,
+          "loadEventMs": 862.1999999880791,
+          "responseStartMs": 191.69999998807907,
+          "transferSizeBytes": 57697
+        },
+        "resourceCount": 16,
+        "resourceTransferBytes": 12345532,
+        "viewport": {
+          "devicePixelRatio": 1,
+          "height": 900,
+          "width": 1440
+        }
+      },
+      "name": "desktop",
+      "pageErrors": [],
+      "screenshot": {
+        "bytes": 1297038,
+        "path": "reports/seo/performance/phase3/desktop.png",
+        "sha256": "5b4e2e54589a3234c2fcd560202d4be332c1d5291054805dea4ae649ddc8536a"
+      }
+    },
+    {
+      "configuredViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+        "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector"
+      ],
+      "failedExternalRequests": [
+        {
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "url": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        },
+        {
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "url": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        }
+      ],
+      "httpStatus": 200,
+      "metrics": {
+        "bodyLoaded": true,
+        "cumulativeLayoutShift": 0,
+        "firstContentfulPaintMs": 192,
+        "h1Rect": {
+          "height": 133.8162078857422,
+          "width": 357.9681396484375,
+          "x": 16.015945434570312,
+          "y": 108.37210083007812
+        },
+        "h1Visible": true,
+        "horizontalOverflowPx": 0,
+        "largestContentfulPaintMs": 192,
+        "loaderHidden": true,
+        "longTaskCount": 1,
+        "longTaskTotalMs": 113,
+        "mapRect": {
+          "height": 320,
+          "width": 356,
+          "x": 17,
+          "y": 4624.515625
+        },
+        "navigation": {
+          "decodedBodySizeBytes": 57397,
+          "domContentLoadedMs": 204.29999999701977,
+          "loadEventMs": 207.3999999910593,
+          "responseStartMs": 10.299999997019768,
+          "transferSizeBytes": 57697
+        },
+        "resourceCount": 15,
+        "resourceTransferBytes": 10942741,
+        "viewport": {
+          "devicePixelRatio": 1,
+          "height": 844,
+          "width": 390
+        }
+      },
+      "name": "mobile",
+      "pageErrors": [],
+      "screenshot": {
+        "bytes": 689515,
+        "path": "reports/seo/performance/phase3/mobile.png",
+        "sha256": "d7fb29b22cbd169031a59c0f7088ea84aca8d3adca3ec2d70956a8b14ba34a39"
+      }
+    }
+  ],
+  "websiteOptimizationApplied": false,
+  "websitePerformanceScope": "AUDIT_ONLY"
+}

@@ -1,0 +1,15 @@
+{
+  "currentMatch": false,
+  "browserEmulationCapability": false,
+  "cssomRules": [
+    {
+      "cssText": "transition: none;",
+      "selector": ".mobile-primary-nav__action"
+    },
+    {
+      "cssText": "transform: none;",
+      "selector": ".mobile-primary-nav__action:active"
+    }
+  ],
+  "fallback": "Transitions are removed and active press transforms are disabled dynamically by CSS media query."
+}

@@ -1,0 +1,12 @@
+{
+  "browserLaunchCount": 0,
+  "buildExitCode": 0,
+  "changedOutputs": [],
+  "generatedAt": "2026-07-15T13:05:56.039660Z",
+  "networkRequestCount": 0,
+  "semanticOutputCount": 27,
+  "status": "PASS",
+  "stderrSummary": "",
+  "stdoutSummary": "{\"browserLaunches\": 0, \"cacheRoot\": \"reports/seo/.cache\", \"dryRun\": true, \"failures\": [], \"generatedAt\": \"2026-07-15T13:05:55.960660Z\", \"generatedComponents\": [\"extract\", \"metadata\", \"schema\", \"sitemap\", \"robots\", \"answers\", \"search-data-validation\", \"schema-validation\", \"nap-validation\", \"menu-validation\", \"asset-validation\", \"internal-links\", \"placeholders\", \"competitors\", \"local-search-baseline\", \"drift\", \"website-performance-inventory\", \"report\"], \"networkRequests\": 0, \"schemaVersion\": \"1.0.0\", \"status\": \"PASS\", \"unchangedComponentsSkipped\": [], \"websiteWrites\": 0}",
+  "subprocessCount": 1
+}

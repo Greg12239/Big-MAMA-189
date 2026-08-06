@@ -1,0 +1,6 @@
+# PHASE 3A PREVIEW ONLY - NOT FOR DEPLOYMENT
+User-agent: *
+Allow: /
+# Conventional search and AI search/citation access: ALLOW in principle.
+# AI model-training and unknown-crawler directives: SETUP_REQUIRED.
+# Sitemap omitted until the production origin is VERIFIED.

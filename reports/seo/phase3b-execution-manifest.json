@@ -1,0 +1,28 @@
+{
+  "allowedWriteRoots": [
+    "seo/",
+    "scripts/seo/",
+    "docs/seo/",
+    "reports/seo/"
+  ],
+  "authorization": "STAGE_1_PHASE_3B_ISOLATED_ONLY",
+  "browserLaunches": 0,
+  "cachePath": "reports/seo/.cache/",
+  "externalAccountsAccessed": 0,
+  "externalPlatformApiRequests": 0,
+  "forbiddenCachePath": ".seo-cache/",
+  "maxBrowserInstances": 1,
+  "maxBrowserPages": 2,
+  "maxSpecialistWorkers": 4,
+  "officialDocumentationNetworkUsed": true,
+  "officialSourceRecordsReviewed": 25,
+  "orchestratorPath": "C:\\Users\\grigo\\.codex\\skills\\seo\\SKILL.md",
+  "phase": "3B",
+  "productionDecisionStatus": "USER_DECISION_REQUIRED",
+  "rollbackRecordCount": 5,
+  "schemaVersion": "1.0.0",
+  "specialistWorkers": 0,
+  "websiteIntegrationStatus": "BLOCKED",
+  "websiteNetworkRequests": 0,
+  "websiteReadOnly": true
+}

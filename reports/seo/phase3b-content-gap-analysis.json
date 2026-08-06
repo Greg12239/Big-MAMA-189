@@ -1,0 +1,57 @@
+{
+  "answerStatusCounts": {
+    "BLOCKED": 8,
+    "PREVIEW_ONLY": 12
+  },
+  "candidatePages": [
+    "Home",
+    "Menu",
+    "Location/Contact",
+    "Delivery/Ordering",
+    "About/Story",
+    "Accessibility",
+    "Privacy/Cookies"
+  ],
+  "languageOptions": [
+    {
+      "hreflang": "NOT_APPLICABLE",
+      "maintenance": "LOW",
+      "option": "Greek-primary single page",
+      "status": "USER_DECISION_REQUIRED"
+    },
+    {
+      "hreflang": "NOT_APPLICABLE",
+      "maintenance": "LOW",
+      "option": "English-primary single page",
+      "status": "USER_DECISION_REQUIRED"
+    },
+    {
+      "hreflang": "DEPENDS_ON_URL_ARCHITECTURE",
+      "maintenance": "MEDIUM",
+      "option": "Greek-primary with limited English support",
+      "status": "USER_DECISION_REQUIRED"
+    },
+    {
+      "hreflang": "REQUIRED_RECIPROCAL_SELF_REFERENCING",
+      "maintenance": "HIGH",
+      "option": "Full Greek and English URL variants",
+      "status": "USER_DECISION_REQUIRED"
+    }
+  ],
+  "machineTranslatedProductionCopyAllowed": false,
+  "massLocalPagesAllowed": false,
+  "performanceCoordination": [
+    "2.15-second loader",
+    "hidden eager Big Tokyo images",
+    "hidden animation intervals",
+    "early Leaflet",
+    "scroll-dependent reveal content",
+    "large PNG payload",
+    "missing responsive images",
+    "fixed navigation offsets"
+  ],
+  "requiredAnswerCount": 20,
+  "schemaVersion": "1.0.0",
+  "status": "USER_DECISION_REQUIRED",
+  "websitePerformanceStatus": "AUDIT_ONLY_NO_OPTIMIZATION_AUTHORIZED"
+}

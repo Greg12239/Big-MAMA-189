@@ -1,0 +1,101 @@
+{
+  "blockedBy": [
+    "legal_business_name",
+    "production_origin",
+    "preferred_hostname",
+    "https_status",
+    "hosting_platform",
+    "deployment_branch",
+    "canonical_home_url",
+    "public_email",
+    "holiday_hours_policy",
+    "primary_business_category",
+    "price_range",
+    "google_business_profile",
+    "social_profiles",
+    "approved_social_image",
+    "big_tokyo_status",
+    "displayed_rating",
+    "review_count",
+    "language_strategy",
+    "search_crawler_policy",
+    "ai_search_crawler_policy",
+    "ai_training_crawler_policy",
+    "unknown_crawler_policy",
+    "analytics_consent",
+    "public_legal_copy",
+    "contact_cta",
+    "order_cta",
+    "analytics_property",
+    "search_console",
+    "bing_webmaster",
+    "indexnow",
+    "business_profile_management"
+  ],
+  "jsonLdPreview": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Restaurant",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "GR",
+          "addressLocality": "Nea Filadelfia",
+          "postalCode": "143 41",
+          "streetAddress": "Leof. Dekelias 114"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 38.0349902,
+          "longitude": 23.7386331
+        },
+        "name": "Big Mama Burgers n' Fries",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes": "01:00",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes": "02:00",
+            "dayOfWeek": [
+              "Saturday"
+            ],
+            "opens": "15:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes": "01:00",
+            "dayOfWeek": [
+              "Sunday"
+            ],
+            "opens": "14:00"
+          }
+        ],
+        "servesCuisine": [
+          "Burgers"
+        ],
+        "telephone": "+30 216 003 3303"
+      }
+    ]
+  },
+  "omitted": [
+    "stable @id and URLs",
+    "sameAs",
+    "priceRange",
+    "AggregateRating",
+    "Review",
+    "Big Tokyo"
+  ],
+  "productionEligible": false,
+  "schemaVersion": "1.0.0",
+  "status": "PREVIEW_ONLY_USER_DECISION_REQUIRED"
+}

@@ -1,0 +1,5 @@
+# PREVIEW ONLY - NOT FOR DEPLOYMENT
+User-agent: *
+Allow: /
+# Sitemap omitted: production origin is SETUP_REQUIRED
+# AI crawler and training policies require separate human approval.

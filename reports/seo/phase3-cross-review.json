@@ -1,0 +1,38 @@
+{
+  "agreements": [
+    "Technical, page, schema, sitemap, local, and GEO reviews agree that the production origin must be verified before public URLs are emitted.",
+    "Content, local, backlinks, and schema reviews agree that the displayed rating must not become structured data without current source evidence.",
+    "Performance, visual, and technical reviews agree that the loader and eager map are audit findings only in this phase.",
+    "Cluster and SXO outputs remain hypotheses because live SERP-overlap and consensus evidence was not authorized."
+  ],
+  "resolvedConflicts": [
+    {
+      "resolution": "Visible question-and-answer content may be useful, but FAQPage schema is prohibited for this commercial site.",
+      "topic": "FAQ markup"
+    },
+    {
+      "resolution": "AI search/citation access is approved in principle; AI training and unknown-crawler policy remain explicit production decisions.",
+      "topic": "AI crawler access"
+    },
+    {
+      "resolution": "The third-party clickout model and unknown availability block Product/Offer schema in Phase 3A.",
+      "topic": "Product schema"
+    },
+    {
+      "resolution": "Loopback lab results are labeled synthetic and cannot replace CrUX or real-user monitoring.",
+      "topic": "Performance evidence"
+    }
+  ],
+  "reviewedSpecialistCount": 26,
+  "schemaVersion": "1.0.0",
+  "status": "PASS_WITH_GATED_DECISIONS",
+  "unresolved": [
+    "Production origin and social image URL",
+    "Verified public email",
+    "Displayed rating evidence or removal",
+    "Big Tokyo availability and order state",
+    "English, Greek, or bilingual production strategy",
+    "AI model-training and unknown-crawler policy"
+  ],
+  "websiteIntegrationStatus": "BLOCKED"
+}

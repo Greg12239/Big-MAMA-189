@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "businessLocationAddressMatch": true,
+    "businessLocationNameMatch": true,
+    "businessLocationPhoneMatch": true,
+    "visibleLocalityObserved": true,
+    "visiblePhoneObserved": true,
+    "visibleStreetObserved": true
+  },
+  "generatedAt": "2026-07-15T13:08:56.458788Z",
+  "mismatches": [],
+  "sources": [
+    "seo/business.json",
+    "seo/locations.json",
+    "index.html"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,259 @@
+{
+  "primarySourcesOnly": true,
+  "retrievalDate": "2026-07-18",
+  "schemaVersion": "1.0.0",
+  "sourceCount": 25,
+  "sources": [
+    {
+      "changedPhase3APlan": false,
+      "id": "google-local-business",
+      "implementationConsequence": "Restaurant graph is preview-only; unsupported ratings and Big Tokyo are excluded.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Use the most specific truthful type; markup must match visible content and does not guarantee rich results.",
+      "retrievalDate": "2026-07-18",
+      "title": "Local business structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-canonical",
+      "implementationConsequence": "Canonical, sitemap, schema, Open Graph and internal links share one approved origin.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Redirects and rel=canonical are strong signals; sitemap inclusion is weaker; signals should agree.",
+      "retrievalDate": "2026-07-18",
+      "title": "Consolidate duplicate URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-sitemaps",
+      "implementationConsequence": "No production sitemap URL is emitted until the canonical origin is approved.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Sitemaps aid discovery but do not guarantee crawling or indexing; include canonical URLs.",
+      "retrievalDate": "2026-07-18",
+      "title": "Sitemaps overview",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-build-sitemap",
+      "implementationConsequence": "Material-change hashing gates lastmod and future submission.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Use absolute canonical URLs and accurate lastmod values.",
+      "retrievalDate": "2026-07-18",
+      "title": "Build and submit a sitemap",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-robots-meta",
+      "implementationConsequence": "Staging noindex must not be paired with a block that prevents reading it.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "A crawler must access a page to observe noindex.",
+      "retrievalDate": "2026-07-18",
+      "title": "Robots meta tag specifications",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-robots",
+      "implementationConsequence": "Crawler policy is explicit and security controls remain separate.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "robots.txt controls crawler traffic; it is not a security control or reliable indexing-removal mechanism.",
+      "retrievalDate": "2026-07-18",
+      "title": "Introduction to robots.txt",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro"
+    },
+    {
+      "changedPhase3APlan": true,
+      "id": "google-ai",
+      "implementationConsequence": "No llms.txt ranking dependency or AI-only content is proposed.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Google AI search uses normal SEO controls; no special AI file or schema is required; Googlebot controls Search AI features.",
+      "retrievalDate": "2026-07-18",
+      "title": "AI features and your website",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-images",
+      "implementationConsequence": "The image manifest records responsive variants and image eligibility without altering assets.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Use crawlable img sources, useful alt text, supported formats and responsive delivery; CSS background images are not indexed.",
+      "retrievalDate": "2026-07-18",
+      "title": "Google Images SEO best practices",
+      "url": "https://developers.google.com/search/docs/appearance/google-images"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-search-works",
+      "implementationConsequence": "All outcome language is eligibility-based, not guaranteed.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Crawling, indexing and serving are separate and never guaranteed.",
+      "retrievalDate": "2026-07-18",
+      "title": "In-depth guide to how Google Search works",
+      "url": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-gbp-performance",
+      "implementationConsequence": "GBP measurement remains externally authorized setup work.",
+      "officialDomain": "support.google.com",
+      "relevantRule": "Verified profile access is required; available interaction metrics vary by profile.",
+      "retrievalDate": "2026-07-18",
+      "title": "Understand your Business Profile performance",
+      "url": "https://support.google.com/business/answer/9918094"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-local-ranking",
+      "implementationConsequence": "Local plan focuses on accurate entity data, completeness and legitimate prominence.",
+      "officialDomain": "support.google.com",
+      "relevantRule": "Local results are primarily based on relevance, distance and prominence; better ranking cannot be purchased or requested.",
+      "retrievalDate": "2026-07-18",
+      "title": "Tips to improve local ranking",
+      "url": "https://support.google.com/business/answer/7091"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-local-sources",
+      "implementationConsequence": "Website, business profiles and provider listings require parity checks.",
+      "officialDomain": "support.google.com",
+      "relevantRule": "The official website is one of multiple sources for local information.",
+      "retrievalDate": "2026-07-18",
+      "title": "How Google sources and uses information in local listings",
+      "url": "https://support.google.com/business/answer/2721884"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "bing-sitemaps",
+      "implementationConsequence": "Submission is deferred until account authorization and a canonical sitemap exist.",
+      "officialDomain": "bing.com",
+      "relevantRule": "Bing accepts sitemap discovery through Webmaster Tools or a robots sitemap directive.",
+      "retrievalDate": "2026-07-18",
+      "title": "Sitemaps",
+      "url": "https://www.bing.com/webmasters/help/sitemaps-3b5cf6ed"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "bing-robots",
+      "implementationConsequence": "The preview remains blocked until policy decisions are approved.",
+      "officialDomain": "bing.com",
+      "relevantRule": "Use standards-based rules and validate them; excessive per-bot complexity raises error risk.",
+      "retrievalDate": "2026-07-18",
+      "title": "How to create a robots.txt file",
+      "url": "https://www.bing.com/webmasters/help/how-to-create-a-robots-txt-file-cb7c31ec"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "bing-robots-meta",
+      "implementationConsequence": "Noindex and crawl blocking are kept logically separate.",
+      "officialDomain": "bing.com",
+      "relevantRule": "A page must remain crawlable for noindex to be processed.",
+      "retrievalDate": "2026-07-18",
+      "title": "Robots meta tags and attributes that Bing supports",
+      "url": "https://www.bing.com/webmasters/help/robots-meta-tags-and-attributes-that-bing-supports-5198d240"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "bing-indexnow",
+      "implementationConsequence": "Readiness is prepared; no key or request is generated.",
+      "officialDomain": "bing.com",
+      "relevantRule": "IndexNow requires site ownership and changed URL submission.",
+      "retrievalDate": "2026-07-18",
+      "title": "IndexNow",
+      "url": "https://www.bing.com/webmasters/help/indexnow-0z209wby"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "indexnow-protocol",
+      "implementationConsequence": "Future CI uses material-change triggers and a repository secret only after approval.",
+      "officialDomain": "indexnow.org",
+      "relevantRule": "Submit only added, updated or deleted URLs; prove host ownership with a key and avoid repeated unchanged submissions.",
+      "retrievalDate": "2026-07-18",
+      "title": "IndexNow protocol",
+      "url": "https://www.indexnow.org/documentation"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "schema-restaurant",
+      "implementationConsequence": "One Restaurant node is planned with verified NAP, geo and hours.",
+      "officialDomain": "schema.org",
+      "relevantRule": "Restaurant is a LocalBusiness subtype for truthful restaurant entities.",
+      "retrievalDate": "2026-07-18",
+      "title": "Restaurant",
+      "url": "https://schema.org/Restaurant"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "schema-hours",
+      "implementationConsequence": "Regular overnight hours are represented, while holiday hours remain blocked.",
+      "officialDomain": "schema.org",
+      "relevantRule": "Overnight hours may close earlier than they open; special hours can be represented separately.",
+      "retrievalDate": "2026-07-18",
+      "title": "OpeningHoursSpecification",
+      "url": "https://schema.org/OpeningHoursSpecification"
+    },
+    {
+      "changedPhase3APlan": true,
+      "id": "openai-bots",
+      "implementationConsequence": "AI search and training policies are separate user decisions.",
+      "officialDomain": "developers.openai.com",
+      "relevantRule": "OAI-SearchBot controls search eligibility; GPTBot training access is independent; ChatGPT-User is user-triggered.",
+      "retrievalDate": "2026-07-18",
+      "title": "Overview of OpenAI crawlers",
+      "url": "https://developers.openai.com/api/docs/bots"
+    },
+    {
+      "changedPhase3APlan": true,
+      "id": "openai-publishers",
+      "implementationConsequence": "ChatGPT referral measurement and crawler readiness are documented but not activated.",
+      "officialDomain": "help.openai.com",
+      "relevantRule": "Allow OAI-SearchBot for ChatGPT search inclusion; GPTBot can be controlled independently; referral URLs may identify chatgpt.com.",
+      "retrievalDate": "2026-07-18",
+      "title": "Publishers and developers FAQ",
+      "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "wcag-language",
+      "implementationConsequence": "Language declaration waits for the approved language architecture.",
+      "officialDomain": "w3.org",
+      "relevantRule": "The predominant language must be programmatically determinable.",
+      "retrievalDate": "2026-07-18",
+      "title": "Understanding SC 3.1.1 Language of Page",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "aria-apg",
+      "implementationConsequence": "Visible answer content uses native semantic HTML in the integration plan.",
+      "officialDomain": "w3.org",
+      "relevantRule": "Prefer native semantics; ARIA roles require matching behavior and assistive-technology testing.",
+      "retrievalDate": "2026-07-18",
+      "title": "Read Me First",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/"
+    },
+    {
+      "changedPhase3APlan": true,
+      "id": "apple-business-connect",
+      "implementationConsequence": "Apple parity is planned, but account work is externally authorized.",
+      "officialDomain": "support.apple.com",
+      "relevantRule": "Place-card facts should be current and hours should agree with the official website; account permission is required.",
+      "retrievalDate": "2026-07-18",
+      "title": "Manage place card information in Apple Business Connect",
+      "url": "https://support.apple.com/en-ie/guide/business/abcbdc543423/web"
+    },
+    {
+      "changedPhase3APlan": false,
+      "id": "google-crawler-changelog",
+      "implementationConsequence": "Phase 4 includes a freshness recheck before production changes.",
+      "officialDomain": "developers.google.com",
+      "relevantRule": "Crawler documentation is actively maintained and should be rechecked before integration.",
+      "retrievalDate": "2026-07-18",
+      "title": "Google crawler documentation changelog",
+      "url": "https://developers.google.com/crawling/docs/changelog"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "bigTokyoExcluded": true,
+  "detectedTypes": [
+    "GeoCoordinates",
+    "Menu",
+    "MenuItem",
+    "MenuSection",
+    "OpeningHoursSpecification",
+    "PostalAddress",
+    "Restaurant"
+  ],
+  "errors": [],
+  "generatedAt": "2026-07-15T13:07:08.330523Z",
+  "previewStatus": "PASS_WITH_SETUP_REQUIRED",
+  "productionEligible": false,
+  "prohibitedTypesExcluded": true,
+  "schemaUrlCount": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,106 @@
+{
+  "acceptedPhase2BaselinePath": "reports/seo/performance-baseline.json",
+  "acceptedPhase2BaselinePreserved": true,
+  "acceptedPhase2BaselineSha256After": "63c6cc0db9025981231b5aa650b18f3a7b46b2d9da10da0487fad240bd3b7ffd",
+  "acceptedPhase2BaselineSha256Before": "63c6cc0db9025981231b5aa650b18f3a7b46b2d9da10da0487fad240bd3b7ffd",
+  "browserLaunches": 0,
+  "generatedAt": "2026-07-18T15:54:33.443734Z",
+  "limitations": [
+    "Windows working-set sampling includes each benchmark child process tree.",
+    "Browser performance is measured separately and is excluded from engineering-process peak memory."
+  ],
+  "networkRequests": 0,
+  "peakMemoryBytes": 30494720,
+  "peakMemoryTargetBytes": 536870912,
+  "peakMemoryTargetPassed": true,
+  "regressionPolicy": {
+    "failure": "Any non-zero exit, timeout, target miss, or peak memory above 512 MiB.",
+    "warning": "A future comparable median increase above 20% and 50 ms should be reviewed."
+  },
+  "runs": [
+    {
+      "browserLaunches": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/run-phase3a.py"
+      ],
+      "exitCodes": [
+        0,
+        0,
+        0
+      ],
+      "medianSeconds": 1.238017,
+      "name": "phase3-build",
+      "networkRequests": 0,
+      "peakMemoryBytes": 30494720,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        1.238017,
+        1.308363,
+        0.581071
+      ],
+      "subprocessObservations": 3,
+      "targetPassed": true,
+      "targetSeconds": 5.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunches": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/validate-phase3.py",
+        "--core-only"
+      ],
+      "exitCodes": [
+        0,
+        0,
+        0
+      ],
+      "medianSeconds": 0.198954,
+      "name": "phase3-validation",
+      "networkRequests": 0,
+      "peakMemoryBytes": 20975616,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.177504,
+        0.198954,
+        0.214342
+      ],
+      "subprocessObservations": 3,
+      "targetPassed": true,
+      "targetSeconds": 5.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunches": 0,
+      "command": [
+        "python.exe",
+        "-m",
+        "unittest",
+        "scripts/seo/tests/test_phase3.py"
+      ],
+      "exitCodes": [
+        0,
+        0,
+        0
+      ],
+      "medianSeconds": 0.315163,
+      "name": "phase3-unit",
+      "networkRequests": 0,
+      "peakMemoryBytes": 23937024,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.315163,
+        0.312486,
+        0.353236
+      ],
+      "subprocessObservations": 3,
+      "targetPassed": true,
+      "targetSeconds": 15.0,
+      "timedOut": false
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "targetFailures": []
+}

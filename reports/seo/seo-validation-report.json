@@ -1,0 +1,38 @@
+{
+  "browserLaunches": 0,
+  "checks": {
+    "answerRecordCount": 16,
+    "bigTokyoBlocked": true,
+    "cacheRoot": "reports/seo/.cache",
+    "clusterReferences": true,
+    "competitorObservationCount": 0,
+    "crawlerPolicyAuthorized": false,
+    "forbiddenRootCacheAbsent": true,
+    "latestIntegrityStatus": "PASS",
+    "localPackObservationCount": 0,
+    "productionDecisionConsistency": true,
+    "queryContract": {
+      "categoryCount": 13,
+      "passed": true,
+      "queryCount": 31
+    },
+    "sitemapUrlCount": 0
+  },
+  "errors": [],
+  "filesValidated": 20,
+  "generatedAt": "2026-07-15T13:07:00.453031Z",
+  "networkRequests": 0,
+  "productionReady": false,
+  "schemaVersion": "1.0.0",
+  "setupRequired": [
+    "Verified production origin is required for canonical, sitemap, and public @id output.",
+    "Approved absolute social image URL is unavailable."
+  ],
+  "status": "PASS_WITH_SETUP_REQUIRED",
+  "warnings": [
+    "The protected website contains an observed placeholder email; it remains excluded from production-eligible search data.",
+    "Menu contradictions exist; affected products remain blocked from schema eligibility.",
+    "Crawler, AI-search, and AI-training policies remain human decisions and are not production authorized."
+  ],
+  "websiteWrites": 0
+}

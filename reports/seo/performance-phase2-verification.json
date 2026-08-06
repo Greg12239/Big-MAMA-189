@@ -1,0 +1,111 @@
+{
+  "acceptedBaselinePreserved": true,
+  "acceptedBaselineSha256": "63c6cc0db9025981231b5aa650b18f3a7b46b2d9da10da0487fad240bd3b7ffd",
+  "benchmarkMethodVersion": "3.0.0",
+  "browserLaunches": 0,
+  "browserPages": 0,
+  "comparisonBaseline": "reports/seo/performance-baseline.json",
+  "environment": {
+    "dataContractVersion": "1.0.0",
+    "operatingSystem": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "searchDataSystemVersion": "1.1.0"
+  },
+  "generatedAt": "2026-07-15T13:02:03.884575Z",
+  "limitations": [
+    "Chromium was not launched.",
+    "CPU time is not reported because Windows child-process CPU accounting is not implemented.",
+    "Peak memory is the maximum summed working set observed across each Windows child process tree.",
+    "The single-file-change mode validates incremental key computation without modifying source data."
+  ],
+  "networkRequests": 0,
+  "peakMemoryExcludingChromiumBytes": 28180480,
+  "peakMemoryTargetBytes": 536870912,
+  "regression": {
+    "findings": [],
+    "generatedAt": "2026-07-15T13:02:04.010334Z",
+    "status": "PASS",
+    "thresholdPercent": 20
+  },
+  "runs": [
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-search-foundation.py"
+      ],
+      "durationSeconds": 0.533793,
+      "exitCode": 0,
+      "name": "incremental",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 28180480,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.541511,
+        0.533793,
+        0.508664
+      ],
+      "stderrTail": "",
+      "stdoutTail": "{\"browserLaunches\": 0, \"cacheRoot\": \"reports/seo/.cache\", \"dryRun\": true, \"failures\": [], \"generatedAt\": \"2026-07-15T13:02:01.819612Z\", \"generatedComponents\": [], \"networkRequests\": 0, \"schemaVersion\": \"1.0.0\", \"status\": \"PASS\", \"unchangedComponentsSkipped\": [\"extract\", \"metadata\", \"schema\", \"sitemap\", \"robots\", \"answers\", \"search-data-validation\", \"schema-validation\", \"nap-validation\", \"menu-validation\", \"asset-validation\", \"internal-links\", \"placeholders\", \"competitors\", \"local-search-baseline\", \"drift\", \"website-performance-inventory\", \"report\"], \"websiteWrites\": 0}",
+      "subprocessCount": 6,
+      "targetPassed": true,
+      "targetSeconds": 3.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/validate-search-data.py"
+      ],
+      "durationSeconds": 0.194047,
+      "exitCode": 0,
+      "name": "validation",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 23953408,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.190877,
+        0.22799,
+        0.194047
+      ],
+      "stderrTail": "",
+      "stdoutTail": "\": 0, \"productionDecisionConsistency\": true, \"queryContract\": {\"categoryCount\": 13, \"passed\": true, \"queryCount\": 31}, \"sitemapUrlCount\": 0}, \"errors\": [], \"filesValidated\": 20, \"generatedAt\": \"2026-07-15T13:02:02.967236Z\", \"networkRequests\": 0, \"productionReady\": false, \"report\": {\"bytes\": 1285, \"path\": \"reports/seo/seo-validation-report.json\", \"sha256\": \"43ba07fd6bd14acf1be7e38a483fb3c11e4ae4e4a030f3fe6a89823bddb5b0ac\", \"status\": \"WRITTEN\"}, \"schemaVersion\": \"1.0.0\", \"setupRequired\": [\"Verified production origin is required for canonical, sitemap, and public @id output.\", \"Approved absolute social image URL is unavailable.\"], \"status\": \"PASS_WITH_SETUP_REQUIRED\", \"warnings\": [\"The protected website contains an observed placeholder email; it remains excluded from production-eligible search data.\", \"Menu contradictions exist; affected products remain blocked from schema eligibility.\", \"Crawler, AI-search, and AI-training policies remain human decisions and are not production authorized.\"], \"websiteWrites\": 0}",
+      "subprocessCount": 6,
+      "targetPassed": true,
+      "targetSeconds": 15.0,
+      "timedOut": false
+    },
+    {
+      "browserLaunchCount": 0,
+      "command": [
+        "python.exe",
+        "scripts/seo/build-website-integrity-manifest.py",
+        "--output",
+        "reports/seo/.benchmark-temp/integrity-benchmark.json",
+        "--label",
+        "benchmark"
+      ],
+      "durationSeconds": 0.290813,
+      "exitCode": 0,
+      "name": "integrity",
+      "networkRequestCount": 0,
+      "peakMemoryBytes": 24932352,
+      "sampleCount": 3,
+      "samplesSeconds": [
+        0.289504,
+        0.290813,
+        0.294986
+      ],
+      "stderrTail": "",
+      "stdoutTail": "{\"output\": {\"bytes\": 10256, \"path\": \"reports/seo/.benchmark-temp/integrity-benchmark.json\", \"sha256\": \"3143ada8d2ed306ea646f614109e2fd6f1e1ce58d8ab4bd40bb74708d3279c98\", \"status\": \"WRITTEN\"}, \"protectedFileCount\": 44}",
+      "subprocessCount": 10,
+      "targetPassed": true,
+      "targetSeconds": 30.0,
+      "timedOut": false
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "targetBudgetsMissed": []
+}

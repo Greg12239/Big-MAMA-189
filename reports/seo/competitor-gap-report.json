@@ -1,0 +1,25 @@
+{
+  "added": [],
+  "apiCollectionPlanStatus": "SETUP_REQUIRED",
+  "baselineCompetitorCount": 0,
+  "changed": [],
+  "competitorTypesSupported": [
+    "organic",
+    "local-pack",
+    "maps",
+    "delivery-platform",
+    "burger-business",
+    "street-food-business",
+    "restaurant-business"
+  ],
+  "currentCompetitorCount": 0,
+  "generatedAt": "2026-07-15T13:05:55.736308Z",
+  "limitations": [
+    "No authorized external competitor observations exist."
+  ],
+  "manualCollectionPlanStatus": "READY_FOR_AUTHORIZATION",
+  "networkRequests": 0,
+  "observationCount": 0,
+  "removed": [],
+  "status": "SETUP_REQUIRED"
+}

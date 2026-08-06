@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "classification": "OBSERVED",
+      "line": 1062,
+      "path": "index.html",
+      "pattern": "placeholder"
+    },
+    {
+      "classification": "OBSERVED",
+      "line": 1106,
+      "path": "index.html",
+      "pattern": "placeholder"
+    },
+    {
+      "classification": "OBSERVED",
+      "line": 4001,
+      "path": "styles.css",
+      "pattern": "placeholder"
+    },
+    {
+      "classification": "OBSERVED",
+      "line": 4025,
+      "path": "styles.css",
+      "pattern": "placeholder"
+    },
+    {
+      "classification": "OBSERVED",
+      "line": 4032,
+      "path": "styles.css",
+      "pattern": "placeholder"
+    },
+    {
+      "classification": "OBSERVED",
+      "line": 4038,
+      "path": "styles.css",
+      "pattern": "placeholder"
+    },
+    {
+      "classification": "OBSERVED",
+      "line": 4044,
+      "path": "styles.css",
+      "pattern": "placeholder"
+    }
+  ],
+  "generatedAt": "2026-07-15T13:05:55.719788Z",
+  "status": "FINDINGS",
+  "websiteModified": false
+}

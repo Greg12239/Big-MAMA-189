@@ -1,0 +1,68 @@
+{
+  "blockedWork": [
+    "final production previews",
+    "exact Phase 4 file/selector/value plan",
+    "website integration",
+    "deployment",
+    "platform verification/submission"
+  ],
+  "completedDecisionIndependentWork": [
+    "official source register",
+    "44-field truth contract",
+    "17-platform matrix",
+    "URL/crawler/entity/local/answer/image/measurement/review/authority contracts",
+    "gated previews",
+    "adversarial controls"
+  ],
+  "externalAccountsAccessed": false,
+  "externalPlatformExecutionAuthorized": false,
+  "mobileAndPerformance": [
+    "2.15-second loader",
+    "hidden eager Big Tokyo images",
+    "hidden animation intervals",
+    "early Leaflet",
+    "scroll-dependent reveal content",
+    "large PNG payload",
+    "missing responsive images",
+    "fixed navigation offsets"
+  ],
+  "officialDocumentationResearchUsed": true,
+  "performanceImplementationAuthorized": false,
+  "phase3AIssueCounts": {
+    "P0": 0,
+    "P1": 7,
+    "P2": 8,
+    "P3": 2
+  },
+  "potentialPhase4FilesNotYetApproved": [
+    "index.html",
+    "robots.txt",
+    "sitemap.xml",
+    "site.webmanifest",
+    "approved social/favicons",
+    "approved CI validation",
+    "approved analytics integration"
+  ],
+  "productionReady": false,
+  "requiredApprovals": {
+    "externalChanges": "APPROVED — ALLOW EXTERNAL SEARCH PLATFORM CHANGES",
+    "externalRead": "APPROVED — ALLOW READ-ONLY SEARCH PLATFORM ACCESS",
+    "websiteIntegration": "APPROVED — ALLOW SEO INTEGRATION INTO WEBSITE"
+  },
+  "requiredSequence": [
+    "User completes decision form",
+    "Validate answers",
+    "Generate final production previews",
+    "Generate exact Phase 4 file-level plan",
+    "Freeze protected hashes",
+    "Request APPROVED — ALLOW SEO INTEGRATION INTO WEBSITE"
+  ],
+  "rollback": [
+    "Use reports/seo/.cache/phase3b-rollback for Phase 3B contract rollback",
+    "For Phase 4, back up only approved website files before atomic edits",
+    "Compare protected SHA-256 before and after"
+  ],
+  "schemaVersion": "1.0.0",
+  "status": "USER_DECISION_REQUIRED",
+  "websiteIntegrationStatus": "BLOCKED"
+}

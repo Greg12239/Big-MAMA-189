@@ -1,0 +1,16 @@
+{
+  "decisionGateReady": true,
+  "failedTests": [],
+  "integrationApprovalNotYetRequested": true,
+  "nextRequiredAction": "Complete docs/seo/PRODUCTION-DECISION-FORM.md",
+  "productionReady": false,
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 63,
+    "total": 63
+  },
+  "unresolvedProductionDecisions": 31,
+  "websiteIntegrationStatus": "BLOCKED"
+}

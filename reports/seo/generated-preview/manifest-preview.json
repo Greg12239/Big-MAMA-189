@@ -1,0 +1,12 @@
+{
+  "display": "standalone",
+  "icons": [],
+  "limitations": [
+    "No favicon or approved manifest icons are verified."
+  ],
+  "name": "Big Mama Burgers n' Fries",
+  "previewOnly": true,
+  "short_name": "Big Mama",
+  "start_url": "/",
+  "status": "SETUP_REQUIRED"
+}

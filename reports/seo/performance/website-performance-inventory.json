@@ -1,0 +1,69 @@
+{
+  "entryFiles": {
+    "app.js": 18418,
+    "index.html": 57397,
+    "styles.css": 127192
+  },
+  "evidenceClassification": "STATIC_CODE_FINDING",
+  "extensionCounts": {
+    ".css": 1,
+    ".html": 2,
+    ".jpg": 6,
+    ".js": 1,
+    ".json": 1,
+    ".md": 2,
+    ".png": 29,
+    "[none]": 2
+  },
+  "fieldData": "FIELD_DATA_UNAVAILABLE",
+  "generatedAt": "2026-07-15T13:05:55.898117Z",
+  "laboratoryData": "NOT_COLLECTED",
+  "largestAssets": [
+    {
+      "bytes": 3240577,
+      "path": "public/assets/menu/big-tokyo-transition.png"
+    },
+    {
+      "bytes": 3192503,
+      "path": "public/assets/campaign/originals/street-crew-bags.png"
+    },
+    {
+      "bytes": 2806940,
+      "path": "public/assets/campaign/originals/street-burger-closeup.png"
+    },
+    {
+      "bytes": 2334360,
+      "path": "public/assets/exploded-burger.png"
+    },
+    {
+      "bytes": 2167769,
+      "path": "public/assets/fries-3d-cutout.png"
+    },
+    {
+      "bytes": 2048808,
+      "path": "public/assets/publicassetsbig-mama-reviews-hero-4k.png.png"
+    },
+    {
+      "bytes": 1986137,
+      "path": "public/assets/menu/big-tokyo.png"
+    },
+    {
+      "bytes": 1820323,
+      "path": "public/assets/menu/lava-mam-chicken.png"
+    },
+    {
+      "bytes": 1755335,
+      "path": "public/assets/menu/bacon-lovers-double.png"
+    },
+    {
+      "bytes": 1706031,
+      "path": "public/assets/exploded-burger-cutout.png"
+    }
+  ],
+  "protectedBytes": 42309645,
+  "protectedFileCount": 44,
+  "publicAssetBytes": 42099550,
+  "publicAssetCount": 35,
+  "recommendationsOnly": true,
+  "websiteModified": false
+}

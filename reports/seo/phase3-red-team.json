@@ -1,0 +1,56 @@
+{
+  "attacks": [
+    {
+      "control": "All metric fields remain null; live-data contracts are labeled insufficient.",
+      "id": "RT-01",
+      "result": "PASS",
+      "risk": "Fabricated keyword or ranking metrics"
+    },
+    {
+      "control": "AggregateRating and Review are excluded; displayed 4.8 claim is flagged.",
+      "id": "RT-02",
+      "result": "PASS",
+      "risk": "Fake review/rating schema"
+    },
+    {
+      "control": "Canonical, sitemap loc, schema @id, and social image URLs are omitted.",
+      "id": "RT-03",
+      "result": "PASS",
+      "risk": "Placeholder production URLs"
+    },
+    {
+      "control": "Only loopback browser traffic is allowed; external requests are aborted.",
+      "id": "RT-04",
+      "result": "PASS",
+      "risk": "Unauthorized network or account access"
+    },
+    {
+      "control": "Protected-file manifests compare SHA-256 and bytes before and after.",
+      "id": "RT-05",
+      "result": "PASS",
+      "risk": "Website mutation"
+    },
+    {
+      "control": "Output guards prohibit .seo-cache; Phase 3 uses reports/seo/.cache/.",
+      "id": "RT-06",
+      "result": "PASS",
+      "risk": "Root cache leakage"
+    },
+    {
+      "control": "Answer preview is evidence-only and requires visible-content approval.",
+      "id": "RT-07",
+      "result": "PASS",
+      "risk": "Hidden AEO content"
+    },
+    {
+      "control": "Semantic artifacts are stable JSON/text and are compared by SHA-256.",
+      "id": "RT-08",
+      "result": "PASS",
+      "risk": "Non-deterministic semantic rebuild"
+    }
+  ],
+  "p0Findings": 0,
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "websiteIntegrationStatus": "BLOCKED"
+}

@@ -1,0 +1,241 @@
+{
+  "agentExecutionCount": 0,
+  "agents": [
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-plan.toml",
+      "profileSha256": "4aa3d7ad4fd45ae0e7648d8411e39d0908290dc523952278f0aa79c779066339",
+      "specialist": "seo-plan",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-flow.toml",
+      "profileSha256": "20409bbfb0d252449fff652f017c804f9f826eabb9745fb85fabc5a7997b990b",
+      "specialist": "seo-flow",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": null,
+      "profileSha256": null,
+      "specialist": "seo-audit",
+      "usage": "NO_PROFILE_INSTALLED_INLINE_ORCHESTRATION"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-technical.toml",
+      "profileSha256": "c7c62d48d1e8d1e719ecfc54a0629e35e13b5e58c7bec47c0989693ed6b017e5",
+      "specialist": "seo-technical",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": null,
+      "profileSha256": null,
+      "specialist": "seo-page",
+      "usage": "NO_PROFILE_INSTALLED_INLINE_ORCHESTRATION"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-performance.toml",
+      "profileSha256": "53b55c97b21fb29789663d979f48eab97a638ba6430e2b1b497cca119085a1a1",
+      "specialist": "seo-performance",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-visual.toml",
+      "profileSha256": "0d7788b11fcffa044247495abbeea6bc8016f52e1a8e575ba1212dbc88057cdd",
+      "specialist": "seo-visual",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-images.toml",
+      "profileSha256": "8a6784d447178ccdab268332e4a539d5285360cf028d202e4bf9b772985b9cde",
+      "specialist": "seo-images",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-schema.toml",
+      "profileSha256": "c22af43cd971e3835081f2ed0889f4d4dc550d34a52f56b7b1328aa44eff3ed4",
+      "specialist": "seo-schema",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-sitemap.toml",
+      "profileSha256": "471d98591fed74e55ff1b9f700deb28aff9e1e6e9d9fedfc7b079e1986f14a69",
+      "specialist": "seo-sitemap",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-content.toml",
+      "profileSha256": "64bec089ef3608dd36e64d87ee71df63e0d0da19c666fa99dc9f33879d4a378a",
+      "specialist": "seo-content",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-geo.toml",
+      "profileSha256": "eb26843eec20d958fdce7ec77ac69d1a75d158ae2f8ca6a2e703a9b515b651a9",
+      "specialist": "seo-geo",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-cluster.toml",
+      "profileSha256": "152a0c4a0397f6f9320496b9ab3ca66909e8b5bb5d8c6b14f323b92d7c59ce89",
+      "specialist": "seo-cluster",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-sxo.toml",
+      "profileSha256": "e88e74d4f6618d0aeae8f1065fe26cc9d153218f51edbf6b2144ff2d1db223f8",
+      "specialist": "seo-sxo",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-local.toml",
+      "profileSha256": "c7fe86202cbe83b7380638db5bfc78e101c15868a17d005499ce934c27acc639",
+      "specialist": "seo-local",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-maps.toml",
+      "profileSha256": "ee6831f30e539c7e5ae32bb2022151bdd3b5358e2c28fe3c20726c273f129fa7",
+      "specialist": "seo-maps",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-hreflang.toml",
+      "profileSha256": "e2afaa832d42da5d559074018fadbadb84b1742c70cb2952715cb906ebfd2ae6",
+      "specialist": "seo-hreflang",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-ecommerce.toml",
+      "profileSha256": "ef901b60b2172dcf8b3e321a10065291af2ce8c08b7934b9e6c09e49ab07780d",
+      "specialist": "seo-ecommerce",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-competitor-pages.toml",
+      "profileSha256": "213e108432e39160ef059d6a4daba4df579a2680c422469834fe9ac62392626a",
+      "specialist": "seo-competitor-pages",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-programmatic.toml",
+      "profileSha256": "e250146f844ac2d3089c56c3afe74b264e5bdeed98dd44f2969ec4fd44848751",
+      "specialist": "seo-programmatic",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-backlinks.toml",
+      "profileSha256": "99d749f7f869e02e7d6bd930cea39f4d2559b359439d1a748536ef7fe5020ee2",
+      "specialist": "seo-backlinks",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-drift.toml",
+      "profileSha256": "f4518be308720c9737ca1a7bf465097b7188863d5c96b26d891d1293be5688f0",
+      "specialist": "seo-drift",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-google.toml",
+      "profileSha256": "2cde0f045f6d97862b61658604781649bd2c98bce9be815db6c4b4df2d67434b",
+      "specialist": "seo-google",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-dataforseo.toml",
+      "profileSha256": "8ba8c9d175c2a40a55967f0591eb15f1206cca61fe07b9dd2efdcb5d7b206135",
+      "specialist": "seo-dataforseo",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-firecrawl.toml",
+      "profileSha256": "9956779bcb1203022b6b941f97f0a55430cefed45713f2b691609c60cb92ac67",
+      "specialist": "seo-firecrawl",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    },
+    {
+      "agentSpawned": false,
+      "externalActivity": false,
+      "profilePath": "C:\\Users\\grigo\\.codex\\agents\\seo-image-gen.toml",
+      "profileSha256": "c610406064f53943df62f65cee5c02f0acf7cd18b788af90eb0f12e32e77ec4a",
+      "specialist": "seo-image-gen",
+      "usage": "PROFILE_REFERENCED_FOR_ROUTING_ONLY"
+    }
+  ],
+  "installedProfileCount": 24,
+  "profilesUsedForRouting": [
+    "C:\\Users\\grigo\\.codex\\agents\\seo-plan.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-flow.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-technical.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-performance.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-visual.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-images.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-schema.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-sitemap.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-content.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-geo.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-cluster.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-sxo.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-local.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-maps.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-hreflang.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-ecommerce.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-competitor-pages.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-programmatic.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-backlinks.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-drift.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-google.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-dataforseo.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-firecrawl.toml",
+    "C:\\Users\\grigo\\.codex\\agents\\seo-image-gen.toml"
+  ],
+  "schemaVersion": "1.0.0"
+}

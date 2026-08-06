@@ -1,0 +1,444 @@
+{
+  "images": [
+    {
+      "alt": "Big Mama Burgers N' Fries logo",
+      "exists": true,
+      "height": 825,
+      "loading": null,
+      "path": "public/assets/logo/big-mama-logo-transparent.png",
+      "size": 383140,
+      "width": 799
+    },
+    {
+      "alt": "Big Mama Burgers N' Fries logo",
+      "exists": true,
+      "height": 860,
+      "loading": null,
+      "path": "public/assets/big-mama-logo.png",
+      "size": 736687,
+      "width": 834
+    },
+    {
+      "alt": "Menu",
+      "exists": true,
+      "height": 486,
+      "loading": null,
+      "path": "public/assets/MENU-nav-transparent.png",
+      "size": 14439,
+      "width": 1120
+    },
+    {
+      "alt": "Order through efood",
+      "exists": true,
+      "height": 68,
+      "loading": null,
+      "path": "public/assets/efood-button.png",
+      "size": 6322,
+      "width": 210
+    },
+    {
+      "alt": "Order through efood",
+      "exists": true,
+      "height": 68,
+      "loading": null,
+      "path": "public/assets/efood-button.png",
+      "size": 6322,
+      "width": 210
+    },
+    {
+      "alt": "Big Mama burgers and fries shared outdoors",
+      "exists": true,
+      "height": 1402,
+      "loading": null,
+      "path": "public/assets/campaign/street-burger-closeup.jpg",
+      "size": 401118,
+      "width": 1122
+    },
+    {
+      "alt": "",
+      "exists": true,
+      "height": 1448,
+      "loading": null,
+      "path": "public/assets/campaign/street-crew-bags.jpg",
+      "size": 515769,
+      "width": 1086
+    },
+    {
+      "alt": "",
+      "exists": true,
+      "height": 1240,
+      "loading": "lazy",
+      "path": "public/assets/exploded-burger-cutout.png",
+      "size": 1706031,
+      "width": 1183
+    },
+    {
+      "alt": "",
+      "exists": true,
+      "height": 1402,
+      "loading": "lazy",
+      "path": "public/assets/big-mama-reviews-hero-seamless.png",
+      "size": 1623359,
+      "width": 1122
+    },
+    {
+      "alt": "LIMITED",
+      "exists": true,
+      "height": 486,
+      "loading": "lazy",
+      "path": "public/assets/MENU-nav-transparent.png",
+      "size": 14439,
+      "width": 1120
+    },
+    {
+      "alt": "Mama's Original Single burger",
+      "exists": true,
+      "height": 1027,
+      "loading": "lazy",
+      "path": "public/assets/menu/mamas-original-single.png",
+      "size": 1607432,
+      "width": 1331
+    },
+    {
+      "alt": "Bacon Lovers Double Burger",
+      "exists": true,
+      "height": 941,
+      "loading": "lazy",
+      "path": "public/assets/menu/bacon-lovers-double.png",
+      "size": 1755335,
+      "width": 1456
+    },
+    {
+      "alt": "Truffle Oh Mama Double Burger",
+      "exists": true,
+      "height": 1025,
+      "loading": "lazy",
+      "path": "public/assets/menu/truffle-oh-mama-double.png",
+      "size": 1444088,
+      "width": 1295
+    },
+    {
+      "alt": "Lava Mam' Chicken burger",
+      "exists": true,
+      "height": 941,
+      "loading": "lazy",
+      "path": "public/assets/menu/lava-mam-chicken.png",
+      "size": 1820323,
+      "width": 1456
+    },
+    {
+      "alt": "Big Tokyo Transition chicken burger",
+      "exists": true,
+      "height": 1448,
+      "loading": "eager",
+      "path": "public/assets/menu/big-tokyo-transition.png",
+      "size": 3240577,
+      "width": 1086
+    },
+    {
+      "alt": "Big Tokyo chicken burger",
+      "exists": true,
+      "height": 1448,
+      "loading": "eager",
+      "path": "public/assets/menu/big-tokyo.png",
+      "size": 1986137,
+      "width": 1086
+    },
+    {
+      "alt": "Truffle Parmesan Chicken burger",
+      "exists": true,
+      "height": 941,
+      "loading": "lazy",
+      "path": "public/assets/menu/truffle-parmesan-chicken.png",
+      "size": 1607018,
+      "width": 1456
+    },
+    {
+      "alt": "Mama in Paris burger with brioche bun, double beef patty, cheddar, crispy onions and truffle mayo",
+      "exists": true,
+      "height": 768,
+      "loading": "lazy",
+      "path": "public/assets/menu/mama-in-paris.jpg",
+      "size": 179652,
+      "width": 1366
+    },
+    {
+      "alt": "Big Mama Fries fresh hand cut fries",
+      "exists": true,
+      "height": 960,
+      "loading": "lazy",
+      "path": "public/assets/menu/big-mama-fries.jpg",
+      "size": 124088,
+      "width": 1280
+    },
+    {
+      "alt": "Original Double Choco Cookie with cocoa and double chocolate",
+      "exists": true,
+      "height": 960,
+      "loading": "lazy",
+      "path": "public/assets/menu/original-double-choco-cookie.jpg",
+      "size": 238930,
+      "width": 1280
+    },
+    {
+      "alt": "Big Mama Burgers n' Fries neon logo",
+      "exists": true,
+      "height": 1496,
+      "loading": "lazy",
+      "path": "public/assets/contact/big-mama-neon-logo-transparent.png",
+      "size": 1402491,
+      "width": 1051
+    },
+    {
+      "alt": "",
+      "exists": true,
+      "height": 68,
+      "loading": "lazy",
+      "path": "public/assets/efood-button.png",
+      "size": 6322,
+      "width": 210
+    },
+    {
+      "alt": "",
+      "exists": true,
+      "height": 919,
+      "loading": "lazy",
+      "path": "public/assets/wolt-button.png",
+      "size": 160020,
+      "width": 3519
+    },
+    {
+      "alt": "Big Mama branded burgers and fries shared outdoors",
+      "exists": true,
+      "height": 1402,
+      "loading": "lazy",
+      "path": "public/assets/campaign/street-burger-closeup.jpg",
+      "size": 401118,
+      "width": 1122
+    },
+    {
+      "alt": "Big Mama crew sitting outdoors with branded takeaway bags",
+      "exists": true,
+      "height": 1448,
+      "loading": "lazy",
+      "path": "public/assets/campaign/street-crew-bags.jpg",
+      "size": 515769,
+      "width": 1086
+    },
+    {
+      "alt": "Big Mama fries and wrapped burgers in orange and white packaging",
+      "exists": true,
+      "height": 1402,
+      "loading": "lazy",
+      "path": "public/assets/campaign/street-burger-closeup.jpg",
+      "size": 401118,
+      "width": 1122
+    },
+    {
+      "alt": "Big Mama campaign crew with branded bags",
+      "exists": true,
+      "height": 1448,
+      "loading": "lazy",
+      "path": "public/assets/campaign/street-crew-bags.jpg",
+      "size": 515769,
+      "width": 1086
+    },
+    {
+      "alt": "Big Mama Burgers n' Fries",
+      "exists": true,
+      "height": 860,
+      "loading": "lazy",
+      "path": "public/assets/big-mama-logo.png",
+      "size": 736687,
+      "width": 834
+    },
+    {
+      "alt": "Big Mama logo",
+      "exists": true,
+      "height": 860,
+      "loading": "lazy",
+      "path": "public/assets/big-mama-logo.png",
+      "size": 736687,
+      "width": 834
+    }
+  ],
+  "links": [
+    "#experience",
+    "#featured",
+    "#menu",
+    "#order",
+    "#story",
+    "#top",
+    "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+    "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071",
+    "https://www.google.com/maps/dir/?api=1&destination=Big%20Mama%20Burgers%20n%27%20Fries%2C%20Leof.%20Dekelias%20114%2C%20Nea%20Filadelfia%20143%2041%2C%20Greece",
+    "https://www.google.com/maps/place/Big+Mama+Burgers+n%27+Fries/@38.0331785,23.7426529,15z/data=!4m8!3m7!1s0x14a1a30032ac5caf:0x1dd5a61efd0f5935!8m2!3d38.0349902!4d23.7386331!9m1!1b1!16s%2Fg%2F11y06nrmlf?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
+    "mailto:hello@bigmama.example",
+    "tel:+302160033303"
+  ],
+  "menu": [
+    {
+      "id": "beef",
+      "name": "BEEF Burgers",
+      "products": [
+        {
+          "badge": null,
+          "description": "Single smashed beef, soft bun, house sauce, crisp lettuce, and Big Mama balance.",
+          "images": [
+            "public/assets/menu/mamas-original-single.png"
+          ],
+          "name": "Mama's Original Single",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        },
+        {
+          "badge": "Best seller",
+          "description": "Double smashed beef, melted cheese, bacon crunch, and rich street-level heat.",
+          "images": [
+            "public/assets/menu/bacon-lovers-double.png"
+          ],
+          "name": "Bacon Lovers Double Burger",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        },
+        {
+          "badge": null,
+          "description": "Double beef, crispy texture, creamy truffle energy, and a deep savory finish.",
+          "images": [
+            "public/assets/menu/truffle-oh-mama-double.png"
+          ],
+          "name": "Truffle Oh Mama Double Burger",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "CHICKEN Burgers",
+      "products": [
+        {
+          "badge": null,
+          "description": "Crispy chicken, spicy lava sauce, fresh lettuce, pickles, and Big Mama heat.",
+          "images": [
+            "public/assets/menu/lava-mam-chicken.png"
+          ],
+          "name": "Lava Mam' Chicken",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        },
+        {
+          "badge": "COMING SOON",
+          "description": "Crispy chicken, teriyaki glaze, fresh crunch, and Tokyo street-food energy.",
+          "images": [
+            "public/assets/menu/big-tokyo-transition.png",
+            "public/assets/menu/big-tokyo.png"
+          ],
+          "name": "Big Tokyo",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        },
+        {
+          "badge": null,
+          "description": "Crispy chicken, truffle parmesan cream, golden crunch, and a rich savory finish.",
+          "images": [
+            "public/assets/menu/truffle-parmesan-chicken.png"
+          ],
+          "name": "Truffle Parmesan Chicken",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limited",
+      "name": "LIMITED",
+      "products": [
+        {
+          "badge": null,
+          "description": "The Ψωμάκι brioche με διπλό μπιφτέκι από 100% μοσχαρίσιο κιμά, διπλό cheddar, french crispy onions & truffle mayo sauce",
+          "images": [
+            "public/assets/menu/mama-in-paris.jpg"
+          ],
+          "name": "Mama in Paris",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fries",
+      "name": "FRIES",
+      "products": [
+        {
+          "badge": null,
+          "description": "Fresh Hand cut fries",
+          "images": [
+            "public/assets/menu/big-mama-fries.jpg"
+          ],
+          "name": "Big Mama Fries",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "name": "COOKIES",
+      "products": [
+        {
+          "badge": null,
+          "description": "With butter, egg, cocoa, white sugar & double chocolate",
+          "images": [
+            "public/assets/menu/original-double-choco-cookie.jpg"
+          ],
+          "name": "Original Double Choco Cookie",
+          "orderCta": "Order now →",
+          "providers": [
+            "https://wolt.com/el/grc/athens/restaurant/big-mamma-ath",
+            "https://www.e-food.gr/delivery/nea-filadelfeia/big-mama-8408071"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "canonical": null,
+    "description": "Big Mama Burgers n' Fries premium animated landing page.",
+    "language": "en",
+    "openGraphCount": 0,
+    "schemaBlockCount": 0,
+    "title": "Big Mama | Burgers n' Fries",
+    "twitterCount": 0
+  },
+  "placeholderOccurrences": 2,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "path": "index.html",
+    "sha256": "56dcb0e68aee94cefe9f1dd07af1e25e92be11041a51a21cc446914a9bdd2534"
+  }
+}

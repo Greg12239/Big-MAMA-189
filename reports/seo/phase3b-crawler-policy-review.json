@@ -1,0 +1,17 @@
+{
+  "categoryCount": 6,
+  "llmsTxtRankingRequirementClaimed": false,
+  "productionRobotsEmitted": false,
+  "reason": "Approved policy and origin values are absent.",
+  "robotsUsedAsSecurity": false,
+  "schemaVersion": "1.0.0",
+  "searchAndTrainingSeparated": true,
+  "status": "USER_DECISION_REQUIRED",
+  "unresolvedCategories": [
+    "search_indexing",
+    "ai_search",
+    "ai_training",
+    "ad_validation",
+    "unknown"
+  ]
+}

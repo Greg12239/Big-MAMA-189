@@ -1,0 +1,65 @@
+{
+  "agentProfileCount": 24,
+  "approvalEvidence": [
+    {
+      "path": "C:\\Users\\grigo\\.codex\\attachments\\c402ecb9-3731-477a-aa67-4a95d448fa2e\\pasted-text.txt",
+      "sha256": "ccfbfcae7e0ae1845462ee00d775cb539e06c8eee61aca1db1f0687811c18aaa"
+    },
+    {
+      "path": "C:\\Users\\grigo\\.codex\\attachments\\c2d2f81b-2a5d-4f98-9ec1-6b5abc09b945\\pasted-text.txt",
+      "sha256": "f0b1db18fe7eee2d1cfd9f34410d70a1476ab09e478420e68b6172d5a3cc9459"
+    }
+  ],
+  "authorization": "APPROVED — PROCEED",
+  "browserBudget": {
+    "browserLaunchesMaximum": 1,
+    "pagesMaximum": 2,
+    "viewports": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "cachePath": "reports/seo/.cache/",
+  "externalAccountActivity": 0,
+  "externalNetworkRequestsAllowed": 0,
+  "forbiddenCachePath": ".seo-cache/",
+  "generatedAt": "2026-07-18T15:57:59.408200Z",
+  "networkPolicy": "OFFLINE_ONLY_EXCEPT_LOOPBACK",
+  "optionalCapabilities": {
+    "premiumPdf": "UNAVAILABLE_OPTIONAL_WEASYPRINT_NATIVE_LIBRARIES"
+  },
+  "orchestratorPath": "C:\\Users\\grigo\\.codex\\skills\\seo\\SKILL.md",
+  "phase": "3A",
+  "runtime": {
+    "dependencyInstallationPerformed": false,
+    "executionFallbackPath": "C:\\Users\\grigo\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "executionFallbackVersion": "3.12.13",
+    "requestedLauncherStatusAtExecution": "UNAVAILABLE_BASE_INTERPRETER_PATH_MISSING",
+    "requestedPath": "C:\\Users\\grigo\\.codex\\skills\\seo\\.venv\\Scripts\\python.exe",
+    "requestedVersionMetadata": "3.12.10",
+    "seoVenvSitePackagesReusedReadOnly": true
+  },
+  "schemaVersion": "1.0.0",
+  "semanticOutputs": [
+    "reports/seo/phase3-skill-routing.json",
+    "reports/seo/phase3-skill-routing.md",
+    "reports/seo/phase3-agent-routing.json",
+    "reports/seo/phase3-agent-routing.md",
+    "reports/seo/phase3-audit.json",
+    "reports/seo/phase3-audit.md",
+    "reports/seo/phase3-cross-review.json",
+    "reports/seo/phase3-red-team.json",
+    "reports/seo/phase3-issue-register.json",
+    "reports/seo/phase3-integration-plan.json",
+    "reports/seo/phase3-integration-plan.md",
+    "reports/seo/generated-preview/phase3/metadata-preview.html",
+    "reports/seo/generated-preview/phase3/schema-preview.json",
+    "reports/seo/generated-preview/phase3/sitemap-preview.xml",
+    "reports/seo/generated-preview/phase3/robots-preview.txt",
+    "reports/seo/generated-preview/phase3/hreflang-preview.json",
+    "reports/seo/generated-preview/phase3/answer-preview.json"
+  ],
+  "specialistCount": 26,
+  "websiteIntegrationStatus": "BLOCKED",
+  "websiteReadOnly": true
+}

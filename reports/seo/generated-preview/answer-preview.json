@@ -1,0 +1,254 @@
+{
+  "blockedRecordIds": [
+    "answer:open-now"
+  ],
+  "hiddenContentGenerated": false,
+  "previewOnly": true,
+  "records": [
+    {
+      "answer": "Big Mama Burgers n' Fries is at Leof. Dekelias 114, Nea Filadelfia 143 41, Greece.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "location",
+      "id": "answer:where",
+      "intent": "local-navigation",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Where is Big Mama?",
+      "source": [
+        "index.html",
+        "approved-master-prompt"
+      ],
+      "targetEntity": "location:nea-filadelfia",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "Posted hours are Monday to Friday 17:00-01:00, Saturday 15:00-02:00, and Sunday 14:00-01:00.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "location",
+      "id": "answer:hours",
+      "intent": "hours",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "What are Big Mama's opening hours?",
+      "source": [
+        "index.html",
+        "approved-master-prompt"
+      ],
+      "targetEntity": "business:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The website provides ordering links for Wolt and efood.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "order",
+      "id": "answer:order",
+      "intent": "transactional",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "How can customers order?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "business:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "Online ordering links are available for Wolt and efood; current delivery coverage and availability must be confirmed on the selected provider.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "order",
+      "id": "answer:delivery",
+      "intent": "delivery",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Does Big Mama deliver?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "business:big-mama",
+      "verificationStatus": "OBSERVED"
+    },
+    {
+      "answer": "The website links to Wolt and efood.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "order",
+      "id": "answer:platforms",
+      "intent": "transactional",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Which ordering platforms are available?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "business:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The visible menu categories are Beef Burgers, Chicken Burgers, Limited, Fries, and Cookies.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "menu",
+      "id": "answer:categories",
+      "intent": "menu",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "What menu categories exist?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "menu:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The menu displays Mama's Original Single, Bacon Lovers Double Burger, Truffle Oh Mama Double Burger, Lava Mam' Chicken, Big Tokyo, Truffle Parmesan Chicken, and Mama in Paris. Big Tokyo has a conflicting Coming Soon and Order now state, so its availability is unresolved.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "menu",
+      "id": "answer:burgers",
+      "intent": "menu",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Which burgers are displayed?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "menu:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "Mama in Paris appears in the Limited menu category.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "menu",
+      "id": "answer:limited",
+      "intent": "menu",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Is there a Limited burger?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "product:mama-in-paris",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The displayed telephone number is +30 216 003 3303.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "location",
+      "id": "answer:telephone",
+      "intent": "contact",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "What is the telephone number?",
+      "source": [
+        "index.html",
+        "approved-master-prompt"
+      ],
+      "targetEntity": "business:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "Use the Google Maps directions link displayed in the Location section.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "location",
+      "id": "answer:directions",
+      "intent": "navigation",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "How can customers get directions?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "location:nea-filadelfia",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "Big Mama is displayed at Leof. Dekelias 114, Nea Filadelfia 143 41.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "location",
+      "id": "answer:nea-filadelfia",
+      "intent": "local-navigation",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Where is Big Mama in Nea Filadelfia?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "location:nea-filadelfia",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The Chicken Burgers category displays Lava Mam' Chicken, Big Tokyo, and Truffle Parmesan Chicken; Big Tokyo's current availability is unresolved.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "menu",
+      "id": "answer:chicken",
+      "intent": "menu",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Does Big Mama have chicken burgers?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "menu:big-mama",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The menu describes Big Mama Fries as fresh hand-cut fries.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "menu",
+      "id": "answer:fries",
+      "intent": "menu",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "Does Big Mama serve hand-cut fries?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "product:big-mama-fries",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "Mama in Paris is the Limited burger described with brioche, double beef, double cheddar, crispy onions, and truffle mayo.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "menu",
+      "id": "answer:mama-in-paris",
+      "intent": "menu",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "What is Mama in Paris?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "product:mama-in-paris",
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "answer": "The website provides a Google reviews link in its review section.",
+      "eligibleSchemaType": null,
+      "futureVisiblePlacement": "reviews",
+      "id": "answer:review",
+      "intent": "review",
+      "language": "en",
+      "lastReviewedAt": "2026-07-15",
+      "publicationStatus": "PREVIEW_ONLY",
+      "question": "How can customers leave a review?",
+      "source": [
+        "index.html"
+      ],
+      "targetEntity": "business:big-mama",
+      "verificationStatus": "OBSERVED"
+    }
+  ],
+  "schemaMarkupGenerated": false,
+  "websiteIntegrationStatus": "PROHIBITED"
+}

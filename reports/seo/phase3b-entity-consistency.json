@@ -1,0 +1,27 @@
+{
+  "aggregateRatingExcluded": true,
+  "bigTokyoExcluded": true,
+  "blockedSchemaFacts": [
+    "canonical_home_url",
+    "primary_business_category",
+    "price_range",
+    "google_business_profile",
+    "social_profiles",
+    "big_tokyo_status",
+    "displayed_rating",
+    "review_count"
+  ],
+  "localParity": {
+    "address": "PASS",
+    "coordinates": "PASS",
+    "externalPlatforms": "EXTERNAL_AUTHORIZATION_REQUIRED",
+    "holidayHours": "USER_DECISION_REQUIRED",
+    "menu": "PASS_LOCAL_CONTRACT",
+    "name": "PASS",
+    "regularHours": "PASS",
+    "telephone": "PASS"
+  },
+  "primaryRestaurantCount": 1,
+  "schemaVersion": "1.0.0",
+  "status": "PASS_WITH_EXTERNAL_VERIFICATION_REQUIRED"
+}

@@ -1,0 +1,386 @@
+{
+  "failed": 0,
+  "passed": 47,
+  "schemaVersion": "1.0.0",
+  "setupRequiredIsNotFailure": true,
+  "status": "PASS",
+  "testCount": 47,
+  "tests": [
+    {
+      "category": "isolation",
+      "description": "Approved output roots are documented",
+      "error": null,
+      "evidence": "phase3-execution-manifest.json",
+      "id": "T01",
+      "status": "PASS"
+    },
+    {
+      "category": "isolation",
+      "description": "Root .seo-cache is absent",
+      "error": null,
+      "evidence": ".seo-cache",
+      "id": "T02",
+      "status": "PASS"
+    },
+    {
+      "category": "isolation",
+      "description": "Website integration remains blocked",
+      "error": null,
+      "evidence": "phase3-integration-plan.json",
+      "id": "T03",
+      "status": "PASS"
+    },
+    {
+      "category": "baseline",
+      "description": "Accepted Phase 2 manifest remains present",
+      "error": null,
+      "evidence": "foundation-file-manifest.json",
+      "id": "T04",
+      "status": "PASS"
+    },
+    {
+      "category": "baseline",
+      "description": "Accepted Phase 2 inventory contains 120 files",
+      "error": null,
+      "evidence": "foundation-file-manifest.json",
+      "id": "T05",
+      "status": "PASS"
+    },
+    {
+      "category": "integrity",
+      "description": "Phase 3 before manifest contains 44 protected files",
+      "error": null,
+      "evidence": "website-integrity-phase3-before.json",
+      "id": "T06",
+      "status": "PASS"
+    },
+    {
+      "category": "integrity",
+      "description": "Protected file count is unchanged",
+      "error": null,
+      "evidence": "phase3 before/after integrity",
+      "id": "T07",
+      "status": "PASS"
+    },
+    {
+      "category": "integrity",
+      "description": "Protected bytes are unchanged",
+      "error": null,
+      "evidence": "website-integrity-phase3-comparison.json",
+      "id": "T08",
+      "status": "PASS"
+    },
+    {
+      "category": "integrity",
+      "description": "Protected SHA-256 comparison passes",
+      "error": null,
+      "evidence": "website-integrity-phase3-comparison.json",
+      "id": "T09",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Exactly one H1 is present",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T10",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Heading hierarchy has no level skips",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T11",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Image alt attributes are present",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T12",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Image dimensions are present",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T13",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Canonical absence is recorded, not concealed",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T14",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "JSON-LD absence is recorded, not concealed",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T15",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Open Graph absence is recorded",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T16",
+      "status": "PASS"
+    },
+    {
+      "category": "source",
+      "description": "Twitter metadata absence is recorded",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T17",
+      "status": "PASS"
+    },
+    {
+      "category": "trust",
+      "description": "Placeholder email is explicitly flagged",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T18",
+      "status": "PASS"
+    },
+    {
+      "category": "trust",
+      "description": "Displayed rating is explicitly flagged",
+      "error": null,
+      "evidence": "phase3-audit.json",
+      "id": "T19",
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "description": "Big Tokyo remains blocked from schema",
+      "error": null,
+      "evidence": "seo/menu.json",
+      "id": "T20",
+      "status": "PASS"
+    },
+    {
+      "category": "readiness",
+      "description": "Production origin remains unresolved",
+      "error": null,
+      "evidence": "seo/production-decisions.json",
+      "id": "T21",
+      "status": "PASS"
+    },
+    {
+      "category": "readiness",
+      "description": "Social image remains unresolved",
+      "error": null,
+      "evidence": "seo/production-decisions.json",
+      "id": "T22",
+      "status": "PASS"
+    },
+    {
+      "category": "queries",
+      "description": "All query records contain required fields",
+      "error": null,
+      "evidence": "seo/query-universe.json",
+      "id": "T23",
+      "status": "PASS"
+    },
+    {
+      "category": "queries",
+      "description": "Unsupported live query metrics remain null",
+      "error": null,
+      "evidence": "seo/query-universe.json",
+      "id": "T24",
+      "status": "PASS"
+    },
+    {
+      "category": "competitors",
+      "description": "Competitor observations remain empty without network evidence",
+      "error": null,
+      "evidence": "seo/competitor-baseline.json",
+      "id": "T25",
+      "status": "PASS"
+    },
+    {
+      "category": "local",
+      "description": "Local Pack observations remain empty without network evidence",
+      "error": null,
+      "evidence": "seo/local-pack-baseline.json",
+      "id": "T26",
+      "status": "PASS"
+    },
+    {
+      "category": "backlinks",
+      "description": "Backlink metrics remain insufficient/unavailable",
+      "error": null,
+      "evidence": "seo/backlinks.json",
+      "id": "T27",
+      "status": "PASS"
+    },
+    {
+      "category": "citations",
+      "description": "Citation external verification remains unavailable",
+      "error": null,
+      "evidence": "seo/citations.json",
+      "id": "T28",
+      "status": "PASS"
+    },
+    {
+      "category": "crawlers",
+      "description": "Crawler policy remains preview-only",
+      "error": null,
+      "evidence": "seo/crawler-policy.json",
+      "id": "T29",
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "description": "Schema preview excludes prohibited types",
+      "error": null,
+      "evidence": "schema-preview.json",
+      "id": "T30",
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "description": "Schema preview excludes Big Tokyo",
+      "error": null,
+      "evidence": "schema-preview.json",
+      "id": "T31",
+      "status": "PASS"
+    },
+    {
+      "category": "sitemap",
+      "description": "Sitemap preview contains no placeholder production origin",
+      "error": null,
+      "evidence": "sitemap-preview.xml",
+      "id": "T32",
+      "status": "PASS"
+    },
+    {
+      "category": "robots",
+      "description": "Robots preview contains no placeholder production origin",
+      "error": null,
+      "evidence": "robots-preview.txt",
+      "id": "T33",
+      "status": "PASS"
+    },
+    {
+      "category": "hreflang",
+      "description": "Hreflang is deferred pending language strategy",
+      "error": null,
+      "evidence": "hreflang-preview.json",
+      "id": "T34",
+      "status": "PASS"
+    },
+    {
+      "category": "aeo",
+      "description": "Hidden AEO content is prohibited",
+      "error": null,
+      "evidence": "answer-preview.json",
+      "id": "T35",
+      "status": "PASS"
+    },
+    {
+      "category": "routing",
+      "description": "All 26 specialist skills are routed",
+      "error": null,
+      "evidence": "phase3-skill-routing.json",
+      "id": "T36",
+      "status": "PASS"
+    },
+    {
+      "category": "routing",
+      "description": "All 24 installed agent profiles are inventoried",
+      "error": null,
+      "evidence": "phase3-agent-routing.json",
+      "id": "T37",
+      "status": "PASS"
+    },
+    {
+      "category": "routing",
+      "description": "Only audit and page are profileless",
+      "error": null,
+      "evidence": "phase3-agent-routing.json",
+      "id": "T38",
+      "status": "PASS"
+    },
+    {
+      "category": "issues",
+      "description": "Issue priorities use P0-P3 only",
+      "error": null,
+      "evidence": "phase3-issue-register.json",
+      "id": "T39",
+      "status": "PASS"
+    },
+    {
+      "category": "issues",
+      "description": "No unsupported P0 issue is claimed",
+      "error": null,
+      "evidence": "phase3-issue-register.json",
+      "id": "T40",
+      "status": "PASS"
+    },
+    {
+      "category": "cross-review",
+      "description": "Cross-review completed with gated decisions",
+      "error": null,
+      "evidence": "phase3-cross-review.json",
+      "id": "T41",
+      "status": "PASS"
+    },
+    {
+      "category": "red-team",
+      "description": "Red-team controls pass",
+      "error": null,
+      "evidence": "phase3-red-team.json",
+      "id": "T42",
+      "status": "PASS"
+    },
+    {
+      "category": "network",
+      "description": "External network allowance is zero",
+      "error": null,
+      "evidence": "execution manifest and lab results",
+      "id": "T43",
+      "status": "PASS"
+    },
+    {
+      "category": "browser",
+      "description": "Browser budget is at most one launch and two pages",
+      "error": null,
+      "evidence": "lab-results.json",
+      "id": "T44",
+      "status": "PASS"
+    },
+    {
+      "category": "determinism",
+      "description": "Semantic rebuild is deterministic",
+      "error": null,
+      "evidence": "phase3-determinism-report.json",
+      "id": "T45",
+      "status": "PASS"
+    },
+    {
+      "category": "performance",
+      "description": "Phase 3 benchmark passes without replacing Phase 2",
+      "error": null,
+      "evidence": "performance/phase3/benchmark.json",
+      "id": "T46",
+      "status": "PASS"
+    },
+    {
+      "category": "artifacts",
+      "description": "All required Phase 3A artifacts exist",
+      "error": null,
+      "evidence": "all required artifacts present",
+      "id": "T47",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "assetsChecked": 21,
+  "assetsModified": false,
+  "errors": [],
+  "generatedAt": "2026-07-15T13:05:55.645685Z",
+  "oversizedObservations": [
+    {
+      "action": "recommendation-only",
+      "bytes": 736687,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/big-mama-logo.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1706031,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/exploded-burger-cutout.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1623359,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/big-mama-reviews-hero-seamless.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1607432,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/mamas-original-single.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1755335,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/bacon-lovers-double.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1444088,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/truffle-oh-mama-double.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1820323,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/lava-mam-chicken.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 3240577,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/big-tokyo-transition.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1986137,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/big-tokyo.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1607018,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/menu/truffle-parmesan-chicken.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1402491,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/contact/big-mama-neon-logo-transparent.png"
+    },
+    {
+      "action": "recommendation-only",
+      "bytes": 1232728,
+      "classification": "STATIC_CODE_FINDING",
+      "path": "public/assets/contact/big-mama-map-pin.png"
+    }
+  ],
+  "status": "PASS_WITH_WARNINGS"
+}

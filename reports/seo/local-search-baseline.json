@@ -1,0 +1,181 @@
+{
+  "browserLaunches": 0,
+  "businessType": "brick-and-mortar",
+  "externalAccounts": {
+    "analytics": "NOT_VERIFIED",
+    "bingWebmasterTools": "NOT_VERIFIED",
+    "googleBusinessProfile": "NOT_VERIFIED",
+    "googleSearchConsole": "NOT_VERIFIED"
+  },
+  "gbpChecklist": {
+    "checklist": [
+      {
+        "field": "ownership",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "primaryCategory",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "secondaryCategories",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "businessName",
+        "source": "seo/business.json#canonicalBrandName",
+        "status": "VERIFIED"
+      },
+      {
+        "field": "address",
+        "source": "seo/business.json#address",
+        "status": "VERIFIED"
+      },
+      {
+        "field": "mapPin",
+        "source": "seo/business.json#geo",
+        "status": "VERIFIED"
+      },
+      {
+        "field": "phone",
+        "source": "seo/business.json#telephone",
+        "status": "VERIFIED"
+      },
+      {
+        "field": "regularHours",
+        "source": "seo/business.json#openingHours",
+        "status": "VERIFIED"
+      },
+      {
+        "field": "specialHours",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "websiteUrl",
+        "source": "seo/production-decisions.json#productionOrigin",
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "menuUrl",
+        "source": "seo/production-decisions.json#productionOrigin",
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "orderingUrls",
+        "source": "seo/business.json#orderingUrls",
+        "status": "VERIFIED"
+      },
+      {
+        "field": "description",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "photos",
+        "source": "seo/image-data.json",
+        "status": "OBSERVED"
+      },
+      {
+        "field": "qa",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "reviewAcquisition",
+        "source": "seo/review-operations.json",
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "field": "reviewResponses",
+        "source": "seo/review-operations.json",
+        "status": "PLANNING_ONLY"
+      },
+      {
+        "field": "duplicateListings",
+        "source": null,
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "citations",
+        "source": "seo/citations.json",
+        "status": "SETUP_REQUIRED"
+      },
+      {
+        "field": "mapsGeoGridTracking",
+        "source": "seo/local-pack-baseline.json#geoGridReadiness",
+        "status": "SETUP_REQUIRED"
+      }
+    ],
+    "policies": [
+      "Do not keyword-stuff the GBP business name.",
+      "Do not invent service areas.",
+      "Do not modify GBP without separate authorization."
+    ],
+    "status": "SETUP_REQUIRED"
+  },
+  "generatedAt": "2026-07-15T13:05:55.756132Z",
+  "geoGridStatus": "SETUP_REQUIRED",
+  "industry": "restaurant",
+  "limitations": [
+    "No live Local Pack, Maps, GBP, citation, review, or ranking data was collected."
+  ],
+  "localPackObservationCount": 0,
+  "location": {
+    "address": {
+      "addressCountry": "GR",
+      "addressLocality": "Nea Filadelfia",
+      "postalCode": "143 41",
+      "streetAddress": "Leof. Dekelias 114"
+    },
+    "geo": {
+      "latitude": 38.0349902,
+      "longitude": 23.7386331
+    },
+    "id": "location:nea-filadelfia",
+    "name": "Big Mama Burgers n' Fries",
+    "telephone": "+30 216 003 3303",
+    "verificationStatus": "VERIFIED"
+  },
+  "networkRequests": 0,
+  "observationContract": {
+    "prohibitedWithoutEvidence": [
+      "rank",
+      "Share of Local Voice",
+      "review count",
+      "rating",
+      "competitor identity"
+    ],
+    "rankValues": [
+      "numeric position",
+      "PRESENT_POSITION_UNKNOWN",
+      "NOT_PRESENT_WITHIN_CAPTURE_DEPTH"
+    ],
+    "requiredFields": [
+      "id",
+      "queryId",
+      "query",
+      "latitude",
+      "longitude",
+      "radiusMeters",
+      "device",
+      "language",
+      "timestamp",
+      "source",
+      "collector",
+      "collectionMethod",
+      "businessEntityId",
+      "rankOrPresence",
+      "listingUrl",
+      "confidence",
+      "freshness",
+      "limitations"
+    ]
+  },
+  "observedCitationCount": 3,
+  "productionOriginStatus": "SETUP_REQUIRED",
+  "status": "PASS_WITH_SETUP_REQUIRED"
+}

@@ -1,0 +1,330 @@
+{
+  "evidence": {
+    "evidenceClassification": "STATIC_CODE_FINDING",
+    "images": {
+      "count": 29,
+      "emptyAltCount": 5,
+      "largestFiles": [
+        {
+          "bytes": 3240577,
+          "path": "public/assets/menu/big-tokyo-transition.png"
+        },
+        {
+          "bytes": 1986137,
+          "path": "public/assets/menu/big-tokyo.png"
+        },
+        {
+          "bytes": 1820323,
+          "path": "public/assets/menu/lava-mam-chicken.png"
+        },
+        {
+          "bytes": 1755335,
+          "path": "public/assets/menu/bacon-lovers-double.png"
+        },
+        {
+          "bytes": 1706031,
+          "path": "public/assets/exploded-burger-cutout.png"
+        }
+      ],
+      "lazyCount": 20,
+      "missingAltCount": 0,
+      "missingDimensionCount": 0,
+      "srcsetCount": 0
+    },
+    "metadata": {
+      "canonicalCount": 0,
+      "description": "Big Mama Burgers n' Fries premium animated landing page.",
+      "jsonLdCount": 0,
+      "language": "en",
+      "openGraphCount": 0,
+      "title": "Big Mama | Burgers n' Fries",
+      "twitterCount": 0
+    },
+    "runtime": {
+      "bigTokyoPreloadLine": null,
+      "externalScripts": [
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      ],
+      "externalStylesheets": [
+        "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      ],
+      "intersectionObserverLine": 65,
+      "loaderDelayLine": 28,
+      "loaderFinishDelayLine": 27,
+      "mapInitLine": 450,
+      "mapTileLine": 471,
+      "mediaQueryCount": 29,
+      "preloadCount": 0,
+      "reducedMotionPresent": true,
+      "revealHiddenCssLine": 4204,
+      "revealSelectorLine": 6,
+      "scriptWithoutDeferOrAsyncCount": 2
+    },
+    "sourceFiles": [
+      {
+        "bytes": 57397,
+        "path": "index.html",
+        "sha256": "56dcb0e68aee94cefe9f1dd07af1e25e92be11041a51a21cc446914a9bdd2534"
+      },
+      {
+        "bytes": 127192,
+        "path": "styles.css",
+        "sha256": "11c7d77625aaef737b278f22e6eb8bcdfbae6c28de9c52d5b6c2f1460354dd6a"
+      },
+      {
+        "bytes": 18418,
+        "path": "app.js",
+        "sha256": "7eb915157fbfab0d1474e4bc2baef8ec8317e04b09113c15c0af2499d0dfaec4"
+      }
+    ],
+    "structure": {
+      "articleCount": 16,
+      "duplicateIds": [],
+      "h1Count": 1,
+      "headingCounts": {
+        "h1": 1,
+        "h2": 5,
+        "h3": 13,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "headingSkips": [],
+      "linkCount": 41,
+      "sectionCount": 9
+    },
+    "trustAndLocal": {
+      "displayedRatingLine": 283,
+      "displayedRatingObserved": true,
+      "mapSectionLine": 914,
+      "phoneLinks": [
+        "tel:+302160033303"
+      ],
+      "placeholderEmailLine": 1084,
+      "placeholderEmailObserved": true,
+      "placeholderLegalLine": 1106
+    },
+    "websiteModified": false
+  },
+  "externalAccountActivity": 0,
+  "findingCounts": {
+    "P0": 0,
+    "P1": 7,
+    "P2": 8,
+    "P3": 2
+  },
+  "findings": [
+    {
+      "area": "technical",
+      "evidence": "index.html; canonicalCount=0",
+      "finding": "No canonical link is present in source HTML.",
+      "id": "P1-TECH-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Add one self-referencing HTTPS canonical after approval.",
+      "requiredDecision": "Verify the public production origin.",
+      "title": "Canonical URL is absent"
+    },
+    {
+      "area": "technical",
+      "evidence": "seo/business.json productionOrigin=SETUP_REQUIRED",
+      "finding": "Production origin is unresolved, so deployable absolute sitemap URLs cannot be generated safely.",
+      "id": "P1-TECH-002",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Create production robots.txt and sitemap.xml after approval.",
+      "requiredDecision": "Verify the public production origin and crawler policy.",
+      "title": "Production robots and sitemap are not ready"
+    },
+    {
+      "area": "schema",
+      "evidence": "index.html; jsonLdCount=0",
+      "finding": "Source contains zero JSON-LD blocks.",
+      "id": "P1-SCHEMA-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Integrate validated Restaurant/WebSite/WebPage JSON-LD without rating, review, Offer, Product, FAQPage, or HowTo claims.",
+      "requiredDecision": "Approve verified Restaurant graph fields and production origin.",
+      "title": "No structured data is present"
+    },
+    {
+      "area": "trust",
+      "evidence": "index.html",
+      "finding": "The visible mail link uses hello@bigmama.example at line 1084.",
+      "id": "P1-TRUST-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Replace or remove only the placeholder contact surface.",
+      "requiredDecision": "Provide a verified public email or approve removal of the email CTA.",
+      "title": "Placeholder public email is exposed"
+    },
+    {
+      "area": "trust",
+      "evidence": "index.html and seo/review-operations.json",
+      "finding": "A 4.8 local rating claim is displayed at line 283; no authorized review dataset was available.",
+      "id": "P1-TRUST-002",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Do not add AggregateRating or Review schema until verified.",
+      "requiredDecision": "Provide platform, count, current rating, and evidence date, or remove the claim.",
+      "title": "Displayed 4.8 rating lacks approved evidence"
+    },
+    {
+      "area": "readiness",
+      "evidence": "seo/production-decisions.json and seo/business.json",
+      "finding": "Production origin, absolute social image URL, language strategy, verified public email, and Big Tokyo status remain setup-required.",
+      "id": "P1-PROD-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Use verified values only in metadata, schema, hreflang, and public contact surfaces.",
+      "requiredDecision": "Resolve all five production decisions.",
+      "title": "Production identity decisions are unresolved"
+    },
+    {
+      "area": "performance",
+      "evidence": "app.js",
+      "finding": "Loader timers occur at app.js lines 28 and 27; map initialization and external tiles occur at lines 450 and 471.",
+      "id": "P1-PERF-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P1",
+      "recommendedProductionChange": "Audit-only recommendation: shorten non-functional loader gating and lazy-initialize the map.",
+      "requiredDecision": "Approve a separate website performance implementation scope.",
+      "title": "Initial UI and map work are deliberately delayed or eager"
+    },
+    {
+      "area": "on-page",
+      "evidence": "index.html; openGraphCount=0; twitterCount=0",
+      "finding": "No Open Graph or Twitter metadata is present.",
+      "id": "P2-META-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Add deterministic OG/Twitter metadata after approval.",
+      "requiredDecision": "Verify canonical origin and absolute social image.",
+      "title": "Social metadata is absent"
+    },
+    {
+      "area": "content",
+      "evidence": "index.html H1",
+      "finding": "The H1 is brand-led but does not name burgers or Nea Filadelfia.",
+      "id": "P2-CONTENT-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Refine only the H1/supporting copy while preserving brand voice.",
+      "requiredDecision": "Approve exact visible-copy changes.",
+      "title": "Primary heading lacks explicit category and locality"
+    },
+    {
+      "area": "images",
+      "evidence": "index.html and public/assets inventory",
+      "finding": "All 29 images omit srcset; 20 are lazy-loaded.",
+      "id": "P2-IMAGE-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Add srcset/sizes and prioritize the actual LCP image without modifying originals until approved.",
+      "requiredDecision": "Approve an image-delivery implementation and derivative asset policy.",
+      "title": "Responsive image delivery is absent"
+    },
+    {
+      "area": "geo-aeo",
+      "evidence": "seo/answer-data.json and seo/content-map.json",
+      "finding": "The isolated answer contract exists, but concise verified answer passages and source attribution are not deployed.",
+      "id": "P2-AEO-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Add visible, factual answer passages; do not create hidden AEO text.",
+      "requiredDecision": "Approve visible content integration and source wording.",
+      "title": "Answer and entity evidence is not yet integrated"
+    },
+    {
+      "area": "hreflang",
+      "evidence": "index.html lang=en and seo/production-decisions.json",
+      "finding": "The document declares English while Greek/local query coverage is planned; no alternate URL set exists.",
+      "id": "P2-I18N-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Generate hreflang only after canonical URLs and content parity are verified.",
+      "requiredDecision": "Choose English-only, Greek-only, or equivalent bilingual URLs.",
+      "title": "Language strategy is unresolved"
+    },
+    {
+      "area": "schema",
+      "evidence": "seo/menu.json product:big-tokyo",
+      "finding": "The item is marked COMING SOON while an ordering action remains visible; it is blocked from structured data.",
+      "id": "P2-MENU-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Keep the item excluded from schema until the contradiction is resolved.",
+      "requiredDecision": "Confirm availability and ordering state.",
+      "title": "Big Tokyo status is contradictory"
+    },
+    {
+      "area": "local",
+      "evidence": "seo/local-pack-baseline.json, seo/citations.json, seo/review-operations.json",
+      "finding": "The data contracts contain zero authorized external observations.",
+      "id": "P2-LOCAL-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Collect evidence with dates and provenance before making rank or review claims.",
+      "requiredDecision": "Authorize named accounts or an approved manual evidence process.",
+      "title": "GBP, citation, review, and Local Pack baselines lack live observations"
+    },
+    {
+      "area": "mobile-visual",
+      "evidence": "reports/seo/performance/phase3/desktop.png and mobile.png",
+      "finding": "Full-page desktop and mobile captures show large blank regions because .reveal elements are observed at app.js lines 6 and 65 while hidden by CSS near line 4204.",
+      "id": "P2-VISUAL-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P2",
+      "recommendedProductionChange": "Ensure meaningful content is visible by default or becomes visible without requiring synthetic scroll while preserving approved motion.",
+      "requiredDecision": "Approve a no-JavaScript, renderer, and reduced-motion visibility fallback.",
+      "title": "Below-the-fold reveal content is hidden until scroll intersection"
+    },
+    {
+      "area": "trust",
+      "evidence": "index.html",
+      "finding": "Placeholder legal copy is present at line 1106.",
+      "id": "P3-LEGAL-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P3",
+      "recommendedProductionChange": "Replace only after legal-owner approval.",
+      "requiredDecision": "Provide approved legal and privacy text.",
+      "title": "Legal copy remains a placeholder"
+    },
+    {
+      "area": "measurement",
+      "evidence": "seo/measurement-plan.json",
+      "finding": "No GSC, GA4, GBP, Bing, or rank-tracking account activity was authorized.",
+      "id": "P3-MEASURE-001",
+      "implementationStatus": "BLOCKED_SEPARATE_APPROVAL_REQUIRED",
+      "priority": "P3",
+      "recommendedProductionChange": "Activate adapters independently with least privilege and cost limits.",
+      "requiredDecision": "Authorize specific accounts and privacy-safe event collection.",
+      "title": "Production search measurement is not connected"
+    }
+  ],
+  "limitations": [
+    "No public production URL was verified.",
+    "No live SERP, backlink, Maps, review, PageSpeed, CrUX, Search Console, or analytics data was collected.",
+    "Browser measurements are synthetic loopback laboratory observations, not field data.",
+    "No production metadata, content, schema, crawler file, image, or runtime code was changed."
+  ],
+  "networkRequests": 0,
+  "phase": "3A",
+  "schemaVersion": "1.0.0",
+  "scope": "Single-page local restaurant website; filesystem source plus isolated contracts and loopback lab only.",
+  "scores": {
+    "contentAndTrust": 46,
+    "geoAeo": 41,
+    "images": 72,
+    "local": 50,
+    "onPage": 58,
+    "overall": 49,
+    "performanceStatic": 48,
+    "schema": 20,
+    "scoreBasis": "Offline audit rubric; not a ranking prediction and not field CWV.",
+    "technical": 52
+  },
+  "status": "BLUEPRINT_READY_WITH_PRODUCTION_DECISIONS",
+  "websiteIntegrationStatus": "BLOCKED",
+  "websiteModified": false
+}

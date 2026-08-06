@@ -1,0 +1,263 @@
+{
+  "aggregateBytes": 345466,
+  "phase": "3B",
+  "recordCount": 51,
+  "records": [
+    {
+      "bytes": 683,
+      "path": "docs/seo/AEO-GEO-CONTENT-STANDARD.md",
+      "sha256": "9294b9cb888d25be3a3f2a37d3642e00142b96e9f9decfc3eb4512bd3f82c599"
+    },
+    {
+      "bytes": 1045,
+      "path": "docs/seo/DEPLOYMENT-AND-INDEXING-RUNBOOK.md",
+      "sha256": "84909b2b7e8b969a9257729c40e5d1247f51361fcc6ea11d878f8158bb9306da"
+    },
+    {
+      "bytes": 809,
+      "path": "docs/seo/LOCAL-SEARCH-OPERATIONS.md",
+      "sha256": "733502b06fdbf6264c19e32e120180826b7e5b3ee9fc42ff834ad2105d772998"
+    },
+    {
+      "bytes": 985,
+      "path": "docs/seo/MULTI-ENGINE-SEARCH-STRATEGY.md",
+      "sha256": "668e29bd3f6925d5db38f7c865662446bc875a49db1d5c943ea9556b7beb7e62"
+    },
+    {
+      "bytes": 8985,
+      "path": "docs/seo/PRODUCTION-DECISION-FORM.md",
+      "sha256": "f4a02ac084256cfb493adcae205d9337f7704158e4133f4fef143e37c49e5516"
+    },
+    {
+      "bytes": 582,
+      "path": "docs/seo/SEARCH-MEASUREMENT-OPERATIONS.md",
+      "sha256": "b36866b57a22bb304ac498225b76cb4a5649ad7a45dd4f24abe6c9245a62baea"
+    },
+    {
+      "bytes": 1356,
+      "path": "reports/seo/PHASE-3B-FINAL-REPORT.md",
+      "sha256": "7d4148f495e4d2a8e5e5b73e40e2a3a27ed0c699742198dffab31927a22c635d"
+    },
+    {
+      "bytes": 3114,
+      "path": "reports/seo/generated-preview/phase3b/answer-content-preview.html",
+      "sha256": "69cc0cbf01805066bc3422590b12263d50d98f84a610becc0029e915d7ce6131"
+    },
+    {
+      "bytes": 236,
+      "path": "reports/seo/generated-preview/phase3b/head-preview.html",
+      "sha256": "154dd37147164e7340dab02ea9ed74ef46a501a7578e6868e2e233e3c333cc0e"
+    },
+    {
+      "bytes": 293,
+      "path": "reports/seo/generated-preview/phase3b/indexnow-preview.json",
+      "sha256": "d9863fd52957f45f60ed67bb728fe9a044f6208c9b081e14f845968a237619dc"
+    },
+    {
+      "bytes": 293,
+      "path": "reports/seo/generated-preview/phase3b/platform-verification-preview.json",
+      "sha256": "a3c010d2a5e52532763d7df4f01b6b688bd280399a3aabc6252ea5b3d961bc9a"
+    },
+    {
+      "bytes": 129,
+      "path": "reports/seo/generated-preview/phase3b/robots-preview.txt",
+      "sha256": "117c52f72dea99f2f7fd7846c678bafad832fe5892e9a31a38a35847dd4aa2c1"
+    },
+    {
+      "bytes": 2440,
+      "path": "reports/seo/generated-preview/phase3b/schema-preview.json",
+      "sha256": "9cc350c24231333ae318bc14e55fd35a2d1a4f49b8d41c34e225422efb1c8f85"
+    },
+    {
+      "bytes": 220,
+      "path": "reports/seo/generated-preview/phase3b/sitemap-preview.xml",
+      "sha256": "8ae318decde9155efb1aecc34a7391c5dee9bc2b0e01b2a2be52ba1231915fe6"
+    },
+    {
+      "bytes": 190,
+      "path": "reports/seo/generated-preview/phase3b/social-preview.json",
+      "sha256": "7aef8253c7dbe7ac6bb54d2fc2d1343055808a67be998844070d0d9a0dde3916"
+    },
+    {
+      "bytes": 9896,
+      "path": "reports/seo/phase3b-agent-routing.json",
+      "sha256": "c0b292c4975fc0a01e437247e3062ad5f11ff373cb8304be7392c79cf001bd2d"
+    },
+    {
+      "bytes": 1517,
+      "path": "reports/seo/phase3b-content-gap-analysis.json",
+      "sha256": "13c3b4ceb73fcc36a98793a4d760a0c6ca08de0cbb923120b622e43dbb1c4866"
+    },
+    {
+      "bytes": 431,
+      "path": "reports/seo/phase3b-crawler-policy-review.json",
+      "sha256": "3e3ace413cead411b117c0763b13399be2c02596515712ffc018d6ca55d9a282"
+    },
+    {
+      "bytes": 8901,
+      "path": "reports/seo/phase3b-determinism-report.json",
+      "sha256": "31adf3aff4e06bba7fdc4688fe4a0a755457ad62acb90c8bed04270f43c029e8"
+    },
+    {
+      "bytes": 698,
+      "path": "reports/seo/phase3b-entity-consistency.json",
+      "sha256": "1167127560aac6142df12bbf538b0944fd953654385efcdbf64a545409a3e0d8"
+    },
+    {
+      "bytes": 815,
+      "path": "reports/seo/phase3b-execution-manifest.json",
+      "sha256": "1784e113c510d8bccbf50e3bc7c1fd06769380f26887c994bd56d641059ef880"
+    },
+    {
+      "bytes": 12997,
+      "path": "reports/seo/phase3b-official-source-register.json",
+      "sha256": "5cc8a8a7276ea2ea9878f09d4bb62bcc0825643626583ff110b4fe7b18c6d253"
+    },
+    {
+      "bytes": 16799,
+      "path": "reports/seo/phase3b-platform-coverage.json",
+      "sha256": "eb36fa7d7288fbaaef1b240edcc1fa72d21366065436c1fb759cbac029a8f018"
+    },
+    {
+      "bytes": 5251,
+      "path": "reports/seo/phase3b-production-readiness.json",
+      "sha256": "bec007f3e8fbeb09aa694be8d5e6ebce58e4d7c2842953d1641811564432a76e"
+    },
+    {
+      "bytes": 4071,
+      "path": "reports/seo/phase3b-red-team.json",
+      "sha256": "2a294f27416216b0b5e65f5642d1fb685416abb047afa89998c8afb9545b4cba"
+    },
+    {
+      "bytes": 1941,
+      "path": "reports/seo/phase3b-rollback-manifest.json",
+      "sha256": "d0558ae47394d117e60ba04194fdacbeb0106fcca933b6936ec940297f04ea96"
+    },
+    {
+      "bytes": 2109,
+      "path": "reports/seo/phase3b-search-activation-plan.json",
+      "sha256": "80a059a387b03333eec4120f39ef53e3bd244dc576838fc4edbe2b032c4a3557"
+    },
+    {
+      "bytes": 771,
+      "path": "reports/seo/phase3b-search-activation-plan.md",
+      "sha256": "82ed691572eb235f6963bb68f92443473efe1ae2faa8ec1ba05ef55e24ecf4a7"
+    },
+    {
+      "bytes": 24207,
+      "path": "reports/seo/phase3b-skill-routing.json",
+      "sha256": "2c3f254034fdd752ddd1eed55c4d009884ac838a2500801da84b13927af49078"
+    },
+    {
+      "bytes": 9833,
+      "path": "reports/seo/phase3b-test-matrix.json",
+      "sha256": "bc74a7bc1af47184f6b7427d9a4a0355ad3b20c2b8365dd7f1b63f9f8d0090f4"
+    },
+    {
+      "bytes": 397,
+      "path": "reports/seo/phase3b-validation-report.json",
+      "sha256": "82f8123273196cbf0250af9dd6ac813bae3b1d3f57c24be0b892626c21fc01f5"
+    },
+    {
+      "bytes": 10260,
+      "path": "reports/seo/website-integrity-phase3b-after.json",
+      "sha256": "d0fa401302e84369af61c9a14f7f0947a765fb6510f318e04b021ea02b5595be"
+    },
+    {
+      "bytes": 10261,
+      "path": "reports/seo/website-integrity-phase3b-before.json",
+      "sha256": "063e5f926fc5adfb98eab806020cdd132b19be1831d0481453a514d2a10400bb"
+    },
+    {
+      "bytes": 340,
+      "path": "reports/seo/website-integrity-phase3b-comparison.json",
+      "sha256": "190fe71517068d92e600b8e47d71bde3c18907c2db0e0da3d6222a8496f9af66"
+    },
+    {
+      "bytes": 92013,
+      "path": "scripts/seo/_phase3b.py",
+      "sha256": "02b220fd5191f9b196d4c5805ad1d2604257f7e0a967245dcb509f114a0382f1"
+    },
+    {
+      "bytes": 1857,
+      "path": "scripts/seo/build-phase3b-file-manifest.py",
+      "sha256": "b2181212ff8302330625f23c15b81514ce878e06462f4d60666e42d8ef471806"
+    },
+    {
+      "bytes": 441,
+      "path": "scripts/seo/run-phase3b.py",
+      "sha256": "1838dcbd35cc5db2d2d3a68ab30669f18a0ce2e065ff0ad9c801b6350916882f"
+    },
+    {
+      "bytes": 1826,
+      "path": "scripts/seo/tests/test_phase3b.py",
+      "sha256": "6d798e174cab9a2cff2b0d0621f73775e876be3b92bbb529ea7997ea520659be"
+    },
+    {
+      "bytes": 620,
+      "path": "scripts/seo/validate-phase3b.py",
+      "sha256": "0f3436c3b08e6072510d6e34e4c6ab88506b657928fb3af07289c3b9900e1c30"
+    },
+    {
+      "bytes": 1057,
+      "path": "scripts/seo/verify-phase3b-determinism.py",
+      "sha256": "9ff851a4fb074b320da4632f0c6ad26f8af795044ded5c2a11e1da2a4781bcfd"
+    },
+    {
+      "bytes": 17950,
+      "path": "seo/answer-data.json",
+      "sha256": "02ff4c43187f2fd1d824f8f1b57f9e198e3a3123420ee4947e6a0186cdde4090"
+    },
+    {
+      "bytes": 6667,
+      "path": "seo/authority-plan.json",
+      "sha256": "5d9ab2fdb172898af459df5f045857cbcec7aa712aa7b86afceccbe7434ccd01"
+    },
+    {
+      "bytes": 2566,
+      "path": "seo/crawler-policy.json",
+      "sha256": "f43717921f0c9f9dceb9234e6225c089bdab6bbd6be454ece586c592597933aa"
+    },
+    {
+      "bytes": 2586,
+      "path": "seo/entity-graph.json",
+      "sha256": "8ec73c66508bee54150b6f4782789280aa0fcaaea56ce00e532db667a1ba57f5"
+    },
+    {
+      "bytes": 27038,
+      "path": "seo/image-data.json",
+      "sha256": "59db308ef994594735152a5a6a2acfd5f120b0d4988313bf247e33fb43e050b4"
+    },
+    {
+      "bytes": 2613,
+      "path": "seo/local-search-source.json",
+      "sha256": "a5f38c3f960e83555831a644152b82db9cf4752a691e9e5b8c5099bdc55a672f"
+    },
+    {
+      "bytes": 4144,
+      "path": "seo/measurement-plan.json",
+      "sha256": "1d7f25137e78763472a11ba3501d6db115959f845cd1d1ddec405e57f73b5b0d"
+    },
+    {
+      "bytes": 16642,
+      "path": "seo/platform-coverage.json",
+      "sha256": "70d47b900fabd4358b7fdb69be2be3cc9e607162ec247600641d7dd35273735a"
+    },
+    {
+      "bytes": 22032,
+      "path": "seo/production-truth.json",
+      "sha256": "f45ef99f14ff001fa9b71f77c5d9e5c493f793445d5178e02b3e4dfad33e8611"
+    },
+    {
+      "bytes": 1173,
+      "path": "seo/review-operations.json",
+      "sha256": "51419c85afff6767b0b2d70731ac23fb97b10a3a4ab62f6195f707cefa63c59d"
+    },
+    {
+      "bytes": 1386,
+      "path": "seo/url-policy.json",
+      "sha256": "a7a73e1ddb2f6b22aeb9987c35c9979741da5d0057cfa66f8d70146ce58e2536"
+    }
+  ],
+  "schemaVersion": "1.0.0"
+}

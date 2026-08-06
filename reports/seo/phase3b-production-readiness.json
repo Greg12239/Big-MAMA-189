@@ -1,0 +1,173 @@
+{
+  "fieldCount": 44,
+  "nextAction": "Complete docs/seo/PRODUCTION-DECISION-FORM.md",
+  "p0TruthIntegrityBlockers": [
+    {
+      "id": "P0-TRUTH-GATE",
+      "reason": "Production outputs cannot be accurate until all required production decisions are resolved."
+    }
+  ],
+  "productionReady": false,
+  "resolvedCount": 13,
+  "schemaVersion": "1.0.0",
+  "status": "USER_DECISION_REQUIRED",
+  "unresolvedCount": 31,
+  "unresolvedFields": [
+    {
+      "id": "legal_business_name",
+      "reason": "No legal entity name is approved; NOT_APPLICABLE is an allowed user decision.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "production_origin",
+      "reason": "No production origin is verified.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "preferred_hostname",
+      "reason": "www/non-www preference depends on the production origin.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "https_status",
+      "reason": "No authorized production endpoint was tested.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "hosting_platform",
+      "reason": "Repository evidence does not establish the final hosting platform.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "deployment_branch",
+      "reason": "No deployment branch is approved.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "canonical_home_url",
+      "reason": "Cannot be derived until origin and hostname are approved.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "public_email",
+      "reason": "The current .example address is a placeholder and is not production eligible.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "holiday_hours_policy",
+      "reason": "No holiday or exceptional-hours owner is defined.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "primary_business_category",
+      "reason": "Restaurant is supported, but the operational primary profile category requires approval.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "price_range",
+      "reason": "No supportable public price range is present; removal is allowed.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "google_business_profile",
+      "reason": "A Maps URL is observed, but profile ownership/current identity is not externally verified.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "social_profiles",
+      "reason": "No official social profiles are verified.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "approved_social_image",
+      "reason": "No absolute production image URL is approved.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "big_tokyo_status",
+      "reason": "COMING SOON conflicts with enabled order actions.",
+      "status": "CONTRADICTORY"
+    },
+    {
+      "id": "displayed_rating",
+      "reason": "The displayed value lacks approved source/date/count evidence.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "review_count",
+      "reason": "No current verified aggregate review count is approved.",
+      "status": "UNKNOWN"
+    },
+    {
+      "id": "language_strategy",
+      "reason": "The current declaration is observed; production architecture is not approved.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "search_crawler_policy",
+      "reason": "Search indexing crawler policy requires explicit approval.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "ai_search_crawler_policy",
+      "reason": "AI search access must be decided separately from training.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "ai_training_crawler_policy",
+      "reason": "AI training consent requires an explicit decision.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "unknown_crawler_policy",
+      "reason": "Unknown-crawler default policy is not approved.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "analytics_consent",
+      "reason": "No consent and privacy architecture is approved.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "public_legal_copy",
+      "reason": "Legal copy remains a placeholder.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "contact_cta",
+      "reason": "Phone/email/directions contact behavior requires production approval.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "order_cta",
+      "reason": "Current provider actions are observed but not approved as the production contract.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "analytics_property",
+      "reason": "No authorized analytics property is identified.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "search_console",
+      "reason": "No account or property access is authorized.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "bing_webmaster",
+      "reason": "No account or site access is authorized.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "indexnow",
+      "reason": "No host, key, endpoint workflow, or authorization is approved.",
+      "status": "SETUP_REQUIRED"
+    },
+    {
+      "id": "business_profile_management",
+      "reason": "Profile ownership/access has not been established.",
+      "status": "SETUP_REQUIRED"
+    }
+  ],
+  "websiteIntegrationStatus": "BLOCKED"
+}

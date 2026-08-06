@@ -1,0 +1,11 @@
+{
+  "host": null,
+  "key": null,
+  "keyLocation": null,
+  "productionEligible": false,
+  "rule": "Submit only materially changed, added or deleted canonical URLs after approval.",
+  "schemaVersion": "1.0.0",
+  "status": "CREDENTIAL_REQUIRED",
+  "submissionAttempted": false,
+  "urlList": []
+}

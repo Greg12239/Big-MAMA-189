@@ -1,0 +1,538 @@
+{
+  "orchestratorPath": "C:\\Users\\grigo\\.codex\\skills\\seo\\SKILL.md",
+  "orchestratorSha256": "f1c890d9f695de89f3e1479c3bfce619c901dbc7a70334545ee97cdc720bdc68",
+  "schemaVersion": "1.0.0",
+  "specialistCount": 26,
+  "specialists": [
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-plan.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-plan",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-plan\\SKILL.md",
+      "skillSha256": "3764f002301e26ff562919c178b3aeb25f075d1701d3cfbd6a1e8231e3ad032c",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-flow.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-flow",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-flow\\SKILL.md",
+      "skillSha256": "d1ba9c17e8b4f0ec8f4ae57af51acf07ff9c74ae53fd729dcd5b3526a0a7e5f9",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": null,
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-audit",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-audit\\SKILL.md",
+      "skillSha256": "3dc846ea1b75833238217cb12c3dac0fbd2d2415cb677ff41b6123731d8c5a69",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-technical.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-technical",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-technical\\SKILL.md",
+      "skillSha256": "580520e2db546be7e9246f77b583c3a84d085ba0b4934f52b67caea5ef12e58e",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": null,
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-page",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-page\\SKILL.md",
+      "skillSha256": "36cd1df5d9a996fe850a762b909c67369d613353486b94c73e6fc36a3022270e",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-performance.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-performance",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-performance\\SKILL.md",
+      "skillSha256": "ff38ab0145ef00e88ecb85827f4b4ebf5e6e6145a7ac2679957ad7b037cee844",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-visual.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-visual",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-visual\\SKILL.md",
+      "skillSha256": "2da7d74a7c806b827c003a6655f70a30c85e15609af8867e852ab7b342278113",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-images.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-images",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-images\\SKILL.md",
+      "skillSha256": "5402f8cbb6da9f54259ddf26d8e0f3c01597fd2c23047be563789fed823b474d",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-schema.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-schema",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-schema\\SKILL.md",
+      "skillSha256": "ac5695982ee41b88a73aa4b0e0f489fd30513108ca5abb88a1afd24a844f677a",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-sitemap.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-sitemap",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-sitemap\\SKILL.md",
+      "skillSha256": "8363669bd38d999a6459bc49bc0cd6e776e3711e84349010e89fe67855316794",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-content.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-content",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-content\\SKILL.md",
+      "skillSha256": "717b239a6b615fa3b43337b0c653a6ad5951d094a539956cf70742db771d58d4",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-geo.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-geo",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-geo\\SKILL.md",
+      "skillSha256": "8cfb805223638e5adb6ec99194e765162d5fac15e18667bd9d8da3e45ff60293",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-cluster.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READINESS_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-cluster",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-cluster\\SKILL.md",
+      "skillSha256": "441b1ff26b070c108a828c8308f7095e2d439c7caf0b0e9dbc0865134e11cc03",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-sxo.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-sxo",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-sxo\\SKILL.md",
+      "skillSha256": "3cef4198ed867de42c5d8744638e2dfd67eac9c187838b048ce712a6cfed7f4c",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-local.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-local",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-local\\SKILL.md",
+      "skillSha256": "9bbf61055936522c69235b1bd643e411e1b6c6e1d55b1b9d9abc68f7b5a83591",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-maps.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "DEFERRED_EXTERNAL_ACCOUNT_AUTHORIZATION_REQUIRED",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-maps",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-maps\\SKILL.md",
+      "skillSha256": "9339b4d012e23070178aaba870eeb924d7723186eceba5a5227619e2971e9ab5",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-hreflang.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "DEFERRED_USER_DECISION_REQUIRED",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-hreflang",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-hreflang\\SKILL.md",
+      "skillSha256": "1a137c6fcabcb3d98d20e05f964b26f44b933c77f63f101e58afca9b33e850a2",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-ecommerce.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READINESS_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-ecommerce",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-ecommerce\\SKILL.md",
+      "skillSha256": "05c22ef926e4a4b5ad359cb491d5291d567b43d2a36faf6c9d12f35d9530be6e",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-competitor-pages.toml",
+      "applicability": "NOT_APPLICABLE_OR_BLOCKED",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "NOT_APPLICABLE_WITH_REASON",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-competitor-pages",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-competitor-pages\\SKILL.md",
+      "skillSha256": "9d3f4d3aff69853ef7c23e2908cf6b52243d7cd8abc0ee227701a74f67ebab77",
+      "workflowInvoked": "Applicability and authorization gate evaluated"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-programmatic.toml",
+      "applicability": "NOT_APPLICABLE_OR_BLOCKED",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "NOT_APPLICABLE_WITH_REASON",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-programmatic",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-programmatic\\SKILL.md",
+      "skillSha256": "ccc896911b7c851d2dd01d55fcfa7ab99fda588b4b2895c28c5ca0753b006729",
+      "workflowInvoked": "Applicability and authorization gate evaluated"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-backlinks.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "DEFERRED_EXTERNAL_ACCOUNT_AUTHORIZATION_REQUIRED",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-backlinks",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-backlinks\\SKILL.md",
+      "skillSha256": "9d480ac7b9e35b556998013d4ad8346096c3a6ff6b1dfe6619c5f03903661a52",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-drift.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "APPLIED_READ_ONLY",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-drift",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-drift\\SKILL.md",
+      "skillSha256": "809cfe03d39cc99f2befc98a5ab4fd371954a6df2ef3c43d8564938b6bbe57fa",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-google.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "DEFERRED_EXTERNAL_ACCOUNT_AUTHORIZATION_REQUIRED",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-google",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-google\\SKILL.md",
+      "skillSha256": "8a6cea49a845aff9f2714d71d7d06581657a47082ef6d5c79be62a593c80478d",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-dataforseo.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "DEFERRED_CREDENTIAL_REQUIRED",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-dataforseo",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-dataforseo\\SKILL.md",
+      "skillSha256": "0bb50ed56e33d2677f01637f9b462025b115d04c7304d9310b99a47be2128e23",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-firecrawl.toml",
+      "applicability": "APPLICABLE",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "DEFERRED_NETWORK_AUTHORIZATION_REQUIRED",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-firecrawl",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-firecrawl\\SKILL.md",
+      "skillSha256": "a5509dbb1635ecbad0fb66f4284acc67ea6575a85eb1213c4fd2d87769d5293c",
+      "workflowInvoked": "Phase 3A specialist instructions retained; Phase 3B contract/readiness review applied inline"
+    },
+    {
+      "agentProfileUsed": "C:\\Users\\grigo\\.codex\\agents\\seo-image-gen.toml",
+      "applicability": "NOT_APPLICABLE_OR_BLOCKED",
+      "evidenceConsumed": [
+        "Phase 3A artifacts",
+        "SEO contracts",
+        "protected website source read-only",
+        "official source register"
+      ],
+      "evidenceProduced": [
+        "Phase 3B contracts/reports/previews"
+      ],
+      "executionMode": "INLINE_READ_ONLY_OR_ISOLATED_WRITE",
+      "finalStatus": "BLOCKED_BY_WEBSITE_PROTECTION",
+      "limitation": "No website writes, external account activity or unauthorized network execution.",
+      "name": "seo-image-gen",
+      "skillPath": "C:\\Users\\grigo\\.codex\\skills\\seo-image-gen\\SKILL.md",
+      "skillSha256": "615fcb0fbadf510da4aeef4e9e509ca19b406932647a1000dd8e915f80451baa",
+      "workflowInvoked": "Applicability and authorization gate evaluated"
+    }
+  ],
+  "statusCounts": {
+    "APPLIED_READINESS_ONLY": 2,
+    "APPLIED_READ_ONLY": 15,
+    "BLOCKED_BY_WEBSITE_PROTECTION": 1,
+    "DEFERRED_CREDENTIAL_REQUIRED": 1,
+    "DEFERRED_EXTERNAL_ACCOUNT_AUTHORIZATION_REQUIRED": 3,
+    "DEFERRED_NETWORK_AUTHORIZATION_REQUIRED": 1,
+    "DEFERRED_USER_DECISION_REQUIRED": 1,
+    "NOT_APPLICABLE_WITH_REASON": 2
+  }
+}

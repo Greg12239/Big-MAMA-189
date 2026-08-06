@@ -1,0 +1,151 @@
+{
+  "approvalRequired": "APPROVED — ALLOW SEO INTEGRATION INTO WEBSITE",
+  "changes": [
+    {
+      "businessPurpose": "Consistent search and social identity.",
+      "change": "Add verified canonical, Open Graph, and Twitter metadata.",
+      "file": "index.html",
+      "location": "head metadata block",
+      "order": 1,
+      "prerequisites": [
+        "production origin",
+        "absolute social image URL"
+      ],
+      "risk": "medium",
+      "selectors": [
+        "head > title",
+        "meta[name=description]"
+      ]
+    },
+    {
+      "businessPurpose": "Machine-readable local entity clarity.",
+      "change": "Add validated Restaurant/WebSite/WebPage JSON-LD from verified fields.",
+      "file": "index.html",
+      "location": "head after metadata",
+      "order": 2,
+      "prerequisites": [
+        "production origin",
+        "Big Tokyo decision",
+        "rating evidence decision"
+      ],
+      "risk": "high",
+      "selectors": [
+        "script[type=application/ld+json]"
+      ]
+    },
+    {
+      "businessPurpose": "Local relevance and customer trust.",
+      "change": "Apply approved locality/category wording and resolve placeholder email and unverified rating.",
+      "file": "index.html",
+      "location": "hero and trust surfaces",
+      "order": 3,
+      "prerequisites": [
+        "approved copy",
+        "verified public email",
+        "rating evidence or removal decision"
+      ],
+      "risk": "high",
+      "selectors": [
+        "h1",
+        "a[href^=mailto]",
+        ".review-pill"
+      ]
+    },
+    {
+      "businessPurpose": "Explicit crawler governance.",
+      "change": "Publish approved search, AI search/citation, training, unknown-crawler, and sitemap directives.",
+      "file": "robots.txt",
+      "location": "new production file",
+      "order": 4,
+      "prerequisites": [
+        "training policy",
+        "unknown-crawler policy",
+        "production origin"
+      ],
+      "risk": "high",
+      "selectors": []
+    },
+    {
+      "businessPurpose": "Reliable discovery.",
+      "change": "Publish only canonical indexable URLs without priority/changefreq tags.",
+      "file": "sitemap.xml",
+      "location": "new production file",
+      "order": 5,
+      "prerequisites": [
+        "production origin",
+        "canonical URL inventory"
+      ],
+      "risk": "medium",
+      "selectors": []
+    },
+    {
+      "businessPurpose": "Citation readiness, accessibility, and delivery efficiency.",
+      "change": "Integrate approved visible answer passages and responsive image attributes.",
+      "file": "index.html",
+      "location": "content and image elements",
+      "order": 6,
+      "prerequisites": [
+        "visible copy approval",
+        "image derivative policy"
+      ],
+      "risk": "medium",
+      "selectors": [
+        "img",
+        "#location",
+        "#menu"
+      ]
+    },
+    {
+      "businessPurpose": "Faster usable content and lower initial work.",
+      "change": "Consider deferred map initialization and shorter loader gating in a separate performance implementation.",
+      "file": "app.js",
+      "location": "loader and map initialization",
+      "order": 7,
+      "prerequisites": [
+        "separate performance approval",
+        "visual regression acceptance"
+      ],
+      "risk": "high",
+      "selectors": [
+        "initLocationMap",
+        "loader timers"
+      ]
+    }
+  ],
+  "dependencies": [],
+  "issueIdsCovered": [
+    "P1-TECH-001",
+    "P1-TECH-002",
+    "P1-SCHEMA-001",
+    "P1-TRUST-001",
+    "P1-TRUST-002",
+    "P1-PROD-001",
+    "P1-PERF-001",
+    "P2-META-001",
+    "P2-CONTENT-001",
+    "P2-IMAGE-001",
+    "P2-AEO-001",
+    "P2-I18N-001",
+    "P2-MENU-001",
+    "P2-LOCAL-001",
+    "P2-VISUAL-001",
+    "P3-LEGAL-001",
+    "P3-MEASURE-001"
+  ],
+  "newRuntimeLibraries": [],
+  "rollbackPlan": "Restore only approved protected files from .approved-baseline/ or the pre-integration SHA-256 manifest; remove newly approved crawler files if they did not exist before integration.",
+  "schemaVersion": "1.0.0",
+  "status": "READY_FOR_SEPARATE_APPROVAL",
+  "unresolvedProductionDecisions": [
+    "Verified HTTPS production origin",
+    "Approved absolute social image URL",
+    "Verified public email or removal decision",
+    "Displayed 4.8 rating evidence or removal decision",
+    "Big Tokyo availability and order state",
+    "English, Greek, or bilingual URL/content strategy",
+    "AI model-training crawler policy",
+    "Unknown-crawler default policy",
+    "Authorized GSC, GA4, GBP, Bing, Maps, backlink, or rank-data adapters"
+  ],
+  "websiteIntegrationStatus": "BLOCKED"
+}

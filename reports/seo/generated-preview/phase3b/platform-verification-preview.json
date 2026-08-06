@@ -1,0 +1,11 @@
+{
+  "accountAccessAttempted": false,
+  "appleBusinessConnect": null,
+  "bingWebmaster": null,
+  "googleBusinessProfile": null,
+  "googleSearchConsole": null,
+  "productionEligible": false,
+  "schemaVersion": "1.0.0",
+  "status": "EXTERNAL_AUTHORIZATION_REQUIRED",
+  "tokensGenerated": false
+}

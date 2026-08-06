@@ -1,0 +1,14 @@
+{
+  "categoryCount": 5,
+  "contradictions": [
+    {
+      "issue": "COMING_SOON_WITH_ORDER_NOW",
+      "productId": "product:big-tokyo",
+      "schemaEligibility": "BLOCKED_CONTRADICTION"
+    }
+  ],
+  "errors": [],
+  "generatedAt": "2026-07-15T13:09:05.399909Z",
+  "productCount": 9,
+  "status": "PASS_WITH_WARNINGS"
+}

@@ -1,0 +1,164 @@
+{
+  "excludedEntities": [
+    {
+      "id": "product:big-tokyo",
+      "reason": "Visible COMING SOON and Order now contradiction."
+    }
+  ],
+  "integrationStatus": "PROHIBITED",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Restaurant",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "GR",
+          "addressLocality": "Nea Filadelfia",
+          "postalCode": "143 41",
+          "streetAddress": "Leof. Dekelias 114"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 38.0349902,
+          "longitude": 23.7386331
+        },
+        "hasMenu": {
+          "@type": "Menu",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "description": "Single smashed beef, soft bun, house sauce, crisp lettuce, and Big Mama balance.",
+                  "name": "Mama's Original Single"
+                },
+                {
+                  "@type": "MenuItem",
+                  "description": "Double smashed beef, melted cheese, bacon crunch, and rich street-level heat.",
+                  "name": "Bacon Lovers Double Burger"
+                },
+                {
+                  "@type": "MenuItem",
+                  "description": "Double beef, crispy texture, creamy truffle energy, and a deep savory finish.",
+                  "name": "Truffle Oh Mama Double Burger"
+                }
+              ],
+              "name": "BEEF Burgers"
+            },
+            {
+              "@type": "MenuSection",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "description": "Crispy chicken, spicy lava sauce, fresh lettuce, pickles, and Big Mama heat.",
+                  "name": "Lava Mam' Chicken"
+                },
+                {
+                  "@type": "MenuItem",
+                  "description": "Crispy chicken, truffle parmesan cream, golden crunch, and a rich savory finish.",
+                  "name": "Truffle Parmesan Chicken"
+                }
+              ],
+              "name": "CHICKEN Burgers"
+            },
+            {
+              "@type": "MenuSection",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "description": "The Ψωμάκι brioche με διπλό μπιφτέκι από 100% μοσχαρίσιο κιμά, διπλό cheddar, french crispy onions & truffle mayo sauce",
+                  "name": "Mama in Paris"
+                }
+              ],
+              "name": "LIMITED"
+            },
+            {
+              "@type": "MenuSection",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "description": "Fresh Hand cut fries",
+                  "name": "Big Mama Fries"
+                }
+              ],
+              "name": "FRIES"
+            },
+            {
+              "@type": "MenuSection",
+              "hasMenuItem": [
+                {
+                  "@type": "MenuItem",
+                  "description": "With butter, egg, cocoa, white sugar & double chocolate",
+                  "name": "Original Double Choco Cookie"
+                }
+              ],
+              "name": "COOKIES"
+            }
+          ],
+          "name": "Big Mama Menu"
+        },
+        "name": "Big Mama Burgers n' Fries",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes": "01:00",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes": "02:00",
+            "dayOfWeek": [
+              "Saturday"
+            ],
+            "opens": "15:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes": "01:00",
+            "dayOfWeek": [
+              "Sunday"
+            ],
+            "opens": "14:00"
+          }
+        ],
+        "telephone": "+30 216 003 3303"
+      }
+    ]
+  },
+  "limitations": [
+    "Production origin is not verified; canonical URLs and public @id values are omitted.",
+    "Approved absolute social-image URL is unavailable; ImageObject is omitted.",
+    "Website integration is not authorized."
+  ],
+  "omittedEntities": [
+    {
+      "reason": "Production origin is SETUP_REQUIRED.",
+      "type": "WebSite"
+    },
+    {
+      "reason": "Production origin is SETUP_REQUIRED.",
+      "type": "WebPage"
+    },
+    {
+      "reason": "Approved absolute social-image URL is SETUP_REQUIRED.",
+      "type": "ImageObject"
+    },
+    {
+      "reason": "Restaurant already represents the same physical place; duplicate node omitted.",
+      "type": "Place"
+    }
+  ],
+  "phase": "3A",
+  "previewOnly": true,
+  "previewStatus": "PASS_WITH_SETUP_REQUIRED",
+  "productionEligible": false
+}

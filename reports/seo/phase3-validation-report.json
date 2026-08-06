@@ -1,0 +1,14 @@
+{
+  "blueprintReady": true,
+  "failedTests": [],
+  "productionReady": false,
+  "requiredApproval": "APPROVED — ALLOW SEO INTEGRATION INTO WEBSITE",
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "tests": {
+    "failed": 0,
+    "passed": 47,
+    "total": 47
+  },
+  "websiteIntegrationStatus": "BLOCKED"
+}
