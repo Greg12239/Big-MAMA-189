@@ -11,6 +11,9 @@ desktop.ini
 !.env.example
 
 node_modules/
+*.tsbuildinfo
+.next/
+out/
 dist/
 build/
 .cache/

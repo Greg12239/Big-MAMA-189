@@ -347,7 +347,7 @@
     overflow: visible;
     perspective: none;
     cursor: default;
-    touch-action: auto;
+    touch-action: pan-y;
   }
 
   .reviews-scene {

@@ -1,5 +1,9 @@
 ﻿const loader = document.querySelector("[data-loader]");
 const header = document.querySelector("[data-header]");
+const hero = document.querySelector(".hero");
+const heroBrandmark = document.querySelector(".hero-brandmark");
+const compactHeroQuery = window.matchMedia("(max-width: 900px)");
+const usesMotionHero = document.documentElement.dataset.heroMotion === "motion";
 const progress = document.querySelector(".scroll-progress");
 const revealItems = document.querySelectorAll(".reveal:not(#menu .menu-card)");
 const parallaxItems = document.querySelectorAll("[data-parallax]");
@@ -40,9 +44,9 @@ const loaderExitDelay = prefersReducedMotion ? 140 : 1500;
 const loaderExitDuration = prefersReducedMotion ? 160 : 760;
 const loaderFailSafeDelay = prefersReducedMotion ? 900 : 3600;
 const menuTitleAssets = {
-  generic: { src: "public/assets/MENU-nav-transparent.png", width: 1120, height: 486 },
-  beef: { src: "public/assets/menu/beef-burgers-title.png", width: 1078, height: 772 },
-  chicken: { src: "public/assets/menu/chicken-burgers-title-transparent.png", width: 1218, height: 774 },
+  generic: { src: "/assets/MENU-nav-transparent.png", width: 1120, height: 486 },
+  beef: { src: "/assets/menu/beef-burgers-title.png", width: 1078, height: 772 },
+  chicken: { src: "/assets/menu/chicken-burgers-title-transparent.png", width: 1218, height: 774 },
 };
 const menuTitlePreloads = new Map();
 let loaderStartTimer = 0;
@@ -152,6 +156,8 @@ function updateScrollUI() {
 
   progress.style.width = `${progressWidth}%`;
   header?.classList.toggle("is-scrolled", window.scrollY > 24);
+  if (!usesMotionHero) updateHeroBrandMotion();
+
   if (!prefersReducedMotion) {
     parallaxItems.forEach((item) => {
       const depth = Number(item.dataset.parallax || 0);
@@ -188,6 +194,62 @@ function updateScrollUI() {
       item.style.transform = `translate3d(0, ${limited}px, 0) rotate(${rotate}deg)`;
     });
   }
+}
+
+function clampValue(value, minimum, maximum) {
+  return Math.min(maximum, Math.max(minimum, value));
+}
+
+function smoothstep(value) {
+  const clamped = clampValue(value, 0, 1);
+  return clamped * clamped * (3 - 2 * clamped);
+}
+
+function interpolate(from, to, progressValue) {
+  return from + (to - from) * smoothstep(progressValue);
+}
+
+function updateHeroBrandMotion() {
+  if (!hero || !heroBrandmark || prefersReducedMotion) return;
+
+  const heroRect = hero.getBoundingClientRect();
+  const handoffTravel = Math.max(
+    1,
+    heroRect.height - Math.min(window.innerHeight * 0.22, heroRect.height * 0.28)
+  );
+  const heroProgress = clampValue(-heroRect.top / handoffTravel, 0, 1);
+  const isCompact = compactHeroQuery.matches;
+  const handoffY = isCompact ? 32 : 52;
+  const handoffX = isCompact ? 8 : 14;
+  let rotation = -5;
+  let scale = 0.95;
+  let translateX = 0;
+  let translateY = 18;
+  let opacity = 1;
+
+  if (heroProgress <= 0.34) {
+    const phaseProgress = heroProgress / 0.34;
+    rotation = interpolate(-5, 1.2, phaseProgress);
+    scale = interpolate(0.95, 1.025, phaseProgress);
+    translateX = interpolate(0, 1, phaseProgress);
+    translateY = interpolate(18, 0, phaseProgress);
+  } else if (heroProgress <= 0.65) {
+    const phaseProgress = (heroProgress - 0.34) / 0.31;
+    rotation = interpolate(1.2, 0, phaseProgress);
+    scale = interpolate(1.025, 1.035, phaseProgress);
+    translateX = interpolate(1, 0, phaseProgress);
+    translateY = interpolate(0, 1, phaseProgress);
+  } else {
+    const phaseProgress = (heroProgress - 0.65) / 0.35;
+    rotation = interpolate(0, 5.5, phaseProgress);
+    scale = interpolate(1.035, 1.075, phaseProgress);
+    translateX = interpolate(0, handoffX, phaseProgress);
+    translateY = interpolate(1, handoffY, phaseProgress);
+    opacity = interpolate(1, 0, phaseProgress);
+  }
+
+  heroBrandmark.style.transform = `translate3d(${translateX.toFixed(2)}px, ${translateY.toFixed(2)}px, 0) rotate(${rotation.toFixed(3)}deg) scale(${scale.toFixed(4)})`;
+  heroBrandmark.style.opacity = opacity.toFixed(3);
 }
 
 let ticking = false;
@@ -321,122 +383,6 @@ document.addEventListener("keydown", (event) => {
 
   event.preventDefault();
   closeActiveOrderChooser({ restoreFocus: true });
-});
-
-const productSnapGap = 18;
-const productSnapDeadZone = 18;
-const productTapMovementThreshold = 12;
-let productSnapFrame = 0;
-let productTapState = null;
-
-function cancelProductSnap() {
-  if (!productSnapFrame) return;
-  window.cancelAnimationFrame(productSnapFrame);
-  productSnapFrame = 0;
-}
-
-function isProductInteractiveTarget(target) {
-  return target instanceof Element && Boolean(target.closest(
-    "a, button, input, select, textarea, summary, [contenteditable='true'], [role='button'], [data-order-chooser]"
-  ));
-}
-
-function headerAwareProductOffset() {
-  const navigation = [header, document.querySelector(".mobile-primary-nav"), menuCategoryNavigation]
-    .filter(Boolean)
-    .map((element) => {
-      const style = window.getComputedStyle(element);
-      const rect = element.getBoundingClientRect();
-      const isFixed = style.position === "fixed";
-      const isStickyAndPinned = style.position === "sticky" && rect.top <= 1;
-
-      return (isFixed || isStickyAndPinned) && rect.bottom > 0 && rect.top < window.innerHeight
-        ? rect.bottom
-        : 0;
-    });
-
-  return Math.max(0, ...navigation) + productSnapGap;
-}
-
-function snapProductIntoView(card) {
-  if (!card?.isConnected) return;
-
-  const cardRect = card.getBoundingClientRect();
-  const targetOffset = headerAwareProductOffset();
-  const delta = cardRect.top - targetOffset;
-  if (Math.abs(delta) <= productSnapDeadZone) return;
-
-  const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
-  const target = Math.max(0, Math.min(maxScroll, window.scrollY + delta));
-  if (Math.abs(target - window.scrollY) <= productSnapDeadZone) return;
-
-  cancelProductSnap();
-  if (prefersReducedMotion) {
-    window.scrollTo({ top: target, behavior: "auto" });
-    return;
-  }
-
-  const start = window.scrollY;
-  const distance = Math.abs(target - start);
-  const duration = Math.max(300, Math.min(480, 260 + distance * 0.12));
-  const startedAt = performance.now();
-
-  const tick = (now) => {
-    const progressValue = Math.min(1, (now - startedAt) / duration);
-    const position = start + (target - start) * cubicBezierEase(progressValue, 0.16, 1, 0.3, 1);
-    window.scrollTo(0, position);
-
-    if (progressValue < 1) {
-      productSnapFrame = window.requestAnimationFrame(tick);
-      return;
-    }
-
-    window.scrollTo(0, target);
-    productSnapFrame = 0;
-  };
-
-  productSnapFrame = window.requestAnimationFrame(tick);
-}
-
-menuOrderRoot?.addEventListener("pointerdown", (event) => {
-  if (event.isPrimary === false || (event.pointerType === "mouse" && event.button !== 0)) return;
-  if (isProductInteractiveTarget(event.target)) return;
-
-  const card = event.target instanceof Element ? event.target.closest(".menu-card") : null;
-  if (!card) return;
-
-  productTapState = {
-    card,
-    pointerId: event.pointerId,
-    startX: event.clientX,
-    startY: event.clientY,
-    moved: false,
-  };
-});
-
-menuOrderRoot?.addEventListener("pointermove", (event) => {
-  const state = productTapState;
-  if (!state || state.pointerId !== event.pointerId || state.moved) return;
-
-  const distance = Math.hypot(event.clientX - state.startX, event.clientY - state.startY);
-  if (distance > productTapMovementThreshold) state.moved = true;
-});
-
-menuOrderRoot?.addEventListener("pointerup", (event) => {
-  const state = productTapState;
-  productTapState = null;
-  if (!state || state.pointerId !== event.pointerId || state.moved || isProductInteractiveTarget(event.target)) return;
-
-  const card = event.target instanceof Element ? event.target.closest(".menu-card") : null;
-  if (card === state.card) snapProductIntoView(card);
-});
-
-menuOrderRoot?.addEventListener("pointercancel", () => {
-  productTapState = null;
-});
-
-["wheel", "touchmove", "pointerdown"].forEach((eventName) => {
-  window.addEventListener(eventName, cancelProductSnap, { passive: true });
 });
 
 class MenuCategoryController {
@@ -1863,7 +1809,7 @@ function initLocationMap() {
     };
 
     const createMarkerIcon = () => window.L.icon({
-      iconUrl: "public/assets/contact/big-mama-map-pin.png",
+      iconUrl: "/assets/contact/big-mama-map-pin.png",
       ...getMarkerGeometry(),
       className: "big-mama-map-marker",
     });
@@ -1899,3 +1845,4 @@ function initLocationMap() {
 }
 
 initLocationMap();
+window.addEventListener("bigmama:leaflet-ready", initLocationMap, { once: true });
