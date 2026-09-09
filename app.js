@@ -40,9 +40,9 @@ const loaderExitDelay = prefersReducedMotion ? 140 : 1500;
 const loaderExitDuration = prefersReducedMotion ? 160 : 760;
 const loaderFailSafeDelay = prefersReducedMotion ? 900 : 3600;
 const menuTitleAssets = {
-  generic: { src: "public/assets/MENU-nav-transparent.png", width: 1120, height: 486 },
-  beef: { src: "public/assets/menu/beef-burgers-title.png", width: 1078, height: 772 },
-  chicken: { src: "public/assets/menu/chicken-burgers-title-transparent.png", width: 1218, height: 774 },
+  generic: { src: "./assets/MENU-nav-transparent.png", width: 1120, height: 486 },
+  beef: { src: "./assets/menu/beef-burgers-title.png", width: 1078, height: 772 },
+  chicken: { src: "./assets/menu/chicken-burgers-title-transparent.png", width: 1218, height: 774 },
 };
 const menuTitlePreloads = new Map();
 let loaderStartTimer = 0;
